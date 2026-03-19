@@ -1,0 +1,11 @@
+{
+  "generated_at": "2026-03-18T15:26:45.370397",
+  "aws_snapshot_generated_at": null,
+  "sp_count": 587,
+  "table_count": 2055,
+  "nifi_flow_count": 221,
+  "step_function_count": 0,
+  "eventbridge_rule_count": 0,
+  "eventbridge_schedule_count": 0,
+  "edge_count": 11198
+}

@@ -1,0 +1,245 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+    /* Theme Colors (RGB format for Tailwind opacity support) */
+    --color-crumb-1: 240 230 216; /* #F0E6D8 */
+    --color-crumb-2: 228 213 195; /* #E4D5C3 */
+    --color-crust-light: 196 168 138; /* #C4A88A */
+    --color-crust-golden: 176 120 48; /* #B07830 */
+    --color-crust-toasted: 74 55 40; /* #4A3728 */
+    --color-crust-dark: 42 29 21; /* #2A1D15 */
+    --color-crust-muted: 122 101 85; /* #7A6555 */
+    --color-status-green: 11 218 94; /* #0bda5e */
+    --color-status-red: 239 68 68; /* #ef4444 */
+    --color-status-amber: 245 158 11; /* #f59e0b */
+  }
+
+  body {
+    @apply font-body bg-crumb-1 text-crust-dark antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-display;
+  }
+}
+
+/* ─── Entry animations (CSS only, no framer-motion) ─── */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-fade-up {
+  opacity: 0;
+  animation: fadeUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  animation-delay: var(--delay, 0ms);
+}
+
+.animate-fade-in {
+  opacity: 0;
+  animation: fadeIn 0.5s ease-out forwards;
+  animation-delay: var(--delay, 0ms);
+}
+
+/* Custom scrollbar for webkit */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: theme('colors.crumb.2');
+}
+
+::-webkit-scrollbar-thumb {
+  background: theme('colors.crust.light');
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: theme('colors.crust.golden');
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Glassmorphism utilities */
+.glass {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(196, 168, 138, 0.3);
+}
+
+/* Stage badges */
+.stage-live {
+  @apply border-crust-golden/40 bg-crust-golden/10 text-crust-toasted;
+}
+
+.stage-early-access {
+  @apply border-crust-light/50 bg-crust-light/20 text-crust-toasted;
+}
+
+.stage-private-beta {
+  @apply border-status-amber/30 bg-status-amber/10 text-status-amber;
+}
+
+/* ─── Scroll-reveal (Intersection Observer driven) ─── */
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(32px);
+  transition:
+    opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+
+.scroll-reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ─── Hero radial glow ─── */
+.hero-glow {
+  position: relative;
+}
+
+.hero-glow::before {
+  content: "";
+  position: absolute;
+  inset: -80px -120px;
+  z-index: -1;
+  pointer-events: none;
+  background: radial-gradient(
+    ellipse 600px 400px at 30% 50%,
+    rgba(212, 163, 115, 0.12) 0%, /* crust-golden */
+    transparent 70%
+  );
+  filter: blur(60px);
+}
+
+/* ─── Enhanced card hover ─── */
+.card-lift {
+  transition:
+    transform 0.3s cubic-bezier(0.16, 1, 0.3, 1),
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.card-lift:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 32px -8px rgba(232, 200, 153, 0.10); /* warm glow on dark */
+}
+
+/* ─── Gradient separator ─── */
+.gradient-separator {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(212, 163, 115, 0.4) 50%,
+    transparent 100%
+  );
+}
+
+/* ─── How-it-works connector line ─── */
+.step-connector {
+  position: relative;
+}
+
+.step-connector::after {
+  content: "";
+  position: absolute;
+  top: 2.5rem;
+  right: -1rem;
+  width: 2rem;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(212, 163, 115, 0.4), transparent);
+}
+
+.step-connector:last-child::after {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .step-connector::after {
+    display: none;
+  }
+}
+
+/* ─── Stacked Card (Cheggout style) ─── */
+.stacked-card {
+  background-color: #faf8f5;
+  border-radius: 2rem;
+  border: 1px solid rgba(196, 168, 138, 0.3);
+  box-shadow: 
+    0 -8px 30px -5px rgba(42, 29, 21, 0.05),
+    0 4px 20px -2px rgba(42, 29, 21, 0.03),
+    inset 0 2px 0 0 rgba(255, 255, 255, 1);
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease;
+}
+
+.stacked-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 
+    0 -12px 40px -8px rgba(42, 29, 21, 0.08),
+    0 8px 30px -4px rgba(42, 29, 21, 0.05),
+    inset 0 2px 0 0 rgba(255, 255, 255, 1);
+}
+
+/* ─── Featured product card accent ─── */
+.stacked-card.product-featured {
+  border-color: rgba(176, 120, 48, 0.35);
+  background: linear-gradient(135deg, #ffffff 0%, #f4eee6 100%);
+  box-shadow: 
+    0 -12px 30px -8px rgba(176, 120, 48, 0.15),
+    0 4px 20px -2px rgba(42, 29, 21, 0.03),
+    inset 0 2px 0 0 rgba(255, 255, 255, 1);
+}
+
+.stacked-card.product-featured:hover {
+  box-shadow: 
+    0 -12px 40px -8px rgba(176, 120, 48, 0.12),
+    0 8px 30px -4px rgba(42, 29, 21, 0.05),
+    inset 0 2px 0 0 rgba(255, 255, 255, 1);
+}
+
+/* ─── Code annotation labels (Under the Hood section) ─── */
+.code-annotation {
+  @apply text-xs text-crust-muted font-body;
+  padding: 2px 8px;
+  border-left: 2px solid theme('colors.crust.golden');
+  background: rgba(212, 163, 115, 0.06);
+  border-radius: 0 4px 4px 0;
+  white-space: nowrap;
+}
+
+/* ─── Material Symbol inline icon ─── */
+.material-icon-inline {
+  font-family: "Material Symbols Outlined";
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 1;
+  color: theme('colors.crust.golden');
+}
+

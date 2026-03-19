@@ -1,0 +1,819 @@
+{
+	"metadata": {
+		"generated_at": "2026-01-22T02:48:04.205132",
+		"source_backup": "nifi_flow_20260122_013924.json"
+	},
+	"kpis": {
+		"total_processes": 3239,
+		"active_threads": 0,
+		"controller_services": 0,
+		"process_groups": 346
+	},
+	"security": {
+		"issues_count": 0,
+		"issues": []
+	},
+	"inventory": [
+		{
+			"id": "da5092aa-3e5e-3745-836b-881da08b42c8",
+			"name": "LogMessage",
+			"source": "LogMessage",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "SAP_FI_AR_CONTABLE"
+		},
+		{
+			"id": "8e12b505-529c-38cf-83d4-906f7b5d4808",
+			"name": "ExecuteSQLRecord",
+			"source": "ExecuteSQLRecord",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "SAP_FI_AR_CONTABLE"
+		},
+		{
+			"id": "fdc468da-4644-315a-a27a-9482169314e4",
+			"name": "UpdateAttribute",
+			"source": "UpdateAttribute",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "SAP_FI_AR_CONTABLE"
+		},
+		{
+			"id": "6361e272-160b-359b-a038-ec050f5dea17",
+			"name": "ExecuteSQL",
+			"source": "ExecuteSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "SAP_FI_AR_CONTABLE"
+		},
+		{
+			"id": "e6d73920-9043-38aa-926b-bf3d75ec75c1",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "SAP_FI_AR_CONTABLE"
+		},
+		{
+			"id": "bc084c95-3e72-3747-9499-67368e878c50",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "SAP_FI_AR_CONTABLE"
+		},
+		{
+			"id": "43003440-479d-3cb8-b781-4025dcfc84cb",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "SAP_FI_AR_CONTABLE"
+		},
+		{
+			"id": "779aa3e0-500e-3499-910b-3d279bc14d8b",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "SAP_FI_AR_CONTABLE"
+		},
+		{
+			"id": "a24ec367-805a-3cf0-b948-65a319988f58",
+			"name": "PutS3Object",
+			"source": "PutS3Object",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "SAP_FI_AR_CONTABLE"
+		},
+		{
+			"id": "22c3d9b0-ec43-3910-9c17-f9e33857ddcd",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "SAP_FI_AR_CONTABLE"
+		},
+		{
+			"id": "da5092aa-3e5e-3745-836b-881da08b42c8",
+			"name": "LogMessage",
+			"source": "LogMessage",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "SAP_FI_AR_CONTABLE_DET"
+		},
+		{
+			"id": "8e12b505-529c-38cf-83d4-906f7b5d4808",
+			"name": "ExecuteSQLRecord",
+			"source": "ExecuteSQLRecord",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "SAP_FI_AR_CONTABLE_DET"
+		},
+		{
+			"id": "fdc468da-4644-315a-a27a-9482169314e4",
+			"name": "UpdateAttribute",
+			"source": "UpdateAttribute",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "SAP_FI_AR_CONTABLE_DET"
+		},
+		{
+			"id": "6361e272-160b-359b-a038-ec050f5dea17",
+			"name": "ExecuteSQL",
+			"source": "ExecuteSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "SAP_FI_AR_CONTABLE_DET"
+		},
+		{
+			"id": "e6d73920-9043-38aa-926b-bf3d75ec75c1",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "SAP_FI_AR_CONTABLE_DET"
+		},
+		{
+			"id": "bc084c95-3e72-3747-9499-67368e878c50",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "SAP_FI_AR_CONTABLE_DET"
+		},
+		{
+			"id": "43003440-479d-3cb8-b781-4025dcfc84cb",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "SAP_FI_AR_CONTABLE_DET"
+		},
+		{
+			"id": "779aa3e0-500e-3499-910b-3d279bc14d8b",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "SAP_FI_AR_CONTABLE_DET"
+		},
+		{
+			"id": "a24ec367-805a-3cf0-b948-65a319988f58",
+			"name": "PutS3Object",
+			"source": "PutS3Object",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "SAP_FI_AR_CONTABLE_DET"
+		},
+		{
+			"id": "22c3d9b0-ec43-3910-9c17-f9e33857ddcd",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "SAP_FI_AR_CONTABLE_DET"
+		},
+		{
+			"id": "da5092aa-3e5e-3745-836b-881da08b42c8",
+			"name": "LogMessage",
+			"source": "LogMessage",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "tmp_rep_ta_episodios"
+		},
+		{
+			"id": "8e12b505-529c-38cf-83d4-906f7b5d4808",
+			"name": "ExecuteSQLRecord",
+			"source": "ExecuteSQLRecord",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "tmp_rep_ta_episodios"
+		},
+		{
+			"id": "fdc468da-4644-315a-a27a-9482169314e4",
+			"name": "UpdateAttribute",
+			"source": "UpdateAttribute",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "tmp_rep_ta_episodios"
+		},
+		{
+			"id": "6361e272-160b-359b-a038-ec050f5dea17",
+			"name": "ExecuteSQL",
+			"source": "ExecuteSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "tmp_rep_ta_episodios"
+		},
+		{
+			"id": "e6d73920-9043-38aa-926b-bf3d75ec75c1",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "tmp_rep_ta_episodios"
+		},
+		{
+			"id": "bc084c95-3e72-3747-9499-67368e878c50",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "tmp_rep_ta_episodios"
+		},
+		{
+			"id": "43003440-479d-3cb8-b781-4025dcfc84cb",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "tmp_rep_ta_episodios"
+		},
+		{
+			"id": "779aa3e0-500e-3499-910b-3d279bc14d8b",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "tmp_rep_ta_episodios"
+		},
+		{
+			"id": "a24ec367-805a-3cf0-b948-65a319988f58",
+			"name": "PutS3Object",
+			"source": "PutS3Object",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "tmp_rep_ta_episodios"
+		},
+		{
+			"id": "22c3d9b0-ec43-3910-9c17-f9e33857ddcd",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "tmp_rep_ta_episodios"
+		},
+		{
+			"id": "da5092aa-3e5e-3745-836b-881da08b42c8",
+			"name": "LogMessage",
+			"source": "LogMessage",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "tmp_rep_ta_pagos"
+		},
+		{
+			"id": "8e12b505-529c-38cf-83d4-906f7b5d4808",
+			"name": "ExecuteSQLRecord",
+			"source": "ExecuteSQLRecord",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "tmp_rep_ta_pagos"
+		},
+		{
+			"id": "fdc468da-4644-315a-a27a-9482169314e4",
+			"name": "UpdateAttribute",
+			"source": "UpdateAttribute",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "tmp_rep_ta_pagos"
+		},
+		{
+			"id": "6361e272-160b-359b-a038-ec050f5dea17",
+			"name": "ExecuteSQL",
+			"source": "ExecuteSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "tmp_rep_ta_pagos"
+		},
+		{
+			"id": "e6d73920-9043-38aa-926b-bf3d75ec75c1",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "tmp_rep_ta_pagos"
+		},
+		{
+			"id": "bc084c95-3e72-3747-9499-67368e878c50",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "tmp_rep_ta_pagos"
+		},
+		{
+			"id": "43003440-479d-3cb8-b781-4025dcfc84cb",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "tmp_rep_ta_pagos"
+		},
+		{
+			"id": "779aa3e0-500e-3499-910b-3d279bc14d8b",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "tmp_rep_ta_pagos"
+		},
+		{
+			"id": "a24ec367-805a-3cf0-b948-65a319988f58",
+			"name": "PutS3Object",
+			"source": "PutS3Object",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "tmp_rep_ta_pagos"
+		},
+		{
+			"id": "22c3d9b0-ec43-3910-9c17-f9e33857ddcd",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "tmp_rep_ta_pagos"
+		},
+		{
+			"id": "da5092aa-3e5e-3745-836b-881da08b42c8",
+			"name": "LogMessage",
+			"source": "LogMessage",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "tmp_rep_ta_coberturas"
+		},
+		{
+			"id": "8e12b505-529c-38cf-83d4-906f7b5d4808",
+			"name": "ExecuteSQLRecord",
+			"source": "ExecuteSQLRecord",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "tmp_rep_ta_coberturas"
+		},
+		{
+			"id": "6361e272-160b-359b-a038-ec050f5dea17",
+			"name": "ExecuteSQL",
+			"source": "ExecuteSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "tmp_rep_ta_coberturas"
+		},
+		{
+			"id": "fdc468da-4644-315a-a27a-9482169314e4",
+			"name": "UpdateAttribute",
+			"source": "UpdateAttribute",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "tmp_rep_ta_coberturas"
+		},
+		{
+			"id": "e6d73920-9043-38aa-926b-bf3d75ec75c1",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "tmp_rep_ta_coberturas"
+		},
+		{
+			"id": "bc084c95-3e72-3747-9499-67368e878c50",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "tmp_rep_ta_coberturas"
+		},
+		{
+			"id": "43003440-479d-3cb8-b781-4025dcfc84cb",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "tmp_rep_ta_coberturas"
+		},
+		{
+			"id": "779aa3e0-500e-3499-910b-3d279bc14d8b",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "tmp_rep_ta_coberturas"
+		},
+		{
+			"id": "a24ec367-805a-3cf0-b948-65a319988f58",
+			"name": "PutS3Object",
+			"source": "PutS3Object",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "tmp_rep_ta_coberturas"
+		},
+		{
+			"id": "22c3d9b0-ec43-3910-9c17-f9e33857ddcd",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "tmp_rep_ta_coberturas"
+		},
+		{
+			"id": "da5092aa-3e5e-3745-836b-881da08b42c8",
+			"name": "LogMessage",
+			"source": "LogMessage",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "PortalClinico_Models.NotificacionImed"
+		},
+		{
+			"id": "8e12b505-529c-38cf-83d4-906f7b5d4808",
+			"name": "ExecuteSQLRecord",
+			"source": "ExecuteSQLRecord",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "PortalClinico_Models.NotificacionImed"
+		},
+		{
+			"id": "e6d73920-9043-38aa-926b-bf3d75ec75c1",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "PortalClinico_Models.NotificacionImed"
+		},
+		{
+			"id": "bc084c95-3e72-3747-9499-67368e878c50",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "PortalClinico_Models.NotificacionImed"
+		},
+		{
+			"id": "43003440-479d-3cb8-b781-4025dcfc84cb",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "PortalClinico_Models.NotificacionImed"
+		},
+		{
+			"id": "779aa3e0-500e-3499-910b-3d279bc14d8b",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "PortalClinico_Models.NotificacionImed"
+		},
+		{
+			"id": "a24ec367-805a-3cf0-b948-65a319988f58",
+			"name": "PutS3Object",
+			"source": "PutS3Object",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "PortalClinico_Models.NotificacionImed"
+		},
+		{
+			"id": "22c3d9b0-ec43-3910-9c17-f9e33857ddcd",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "PortalClinico_Models.NotificacionImed"
+		},
+		{
+			"id": "da5092aa-3e5e-3745-836b-881da08b42c8",
+			"name": "LogMessage",
+			"source": "LogMessage",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "PortalClinico_Models.Indicaciones"
+		},
+		{
+			"id": "8e12b505-529c-38cf-83d4-906f7b5d4808",
+			"name": "ExecuteSQLRecord",
+			"source": "ExecuteSQLRecord",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "PortalClinico_Models.Indicaciones"
+		},
+		{
+			"id": "e6d73920-9043-38aa-926b-bf3d75ec75c1",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "PortalClinico_Models.Indicaciones"
+		},
+		{
+			"id": "bc084c95-3e72-3747-9499-67368e878c50",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "PortalClinico_Models.Indicaciones"
+		},
+		{
+			"id": "43003440-479d-3cb8-b781-4025dcfc84cb",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "PortalClinico_Models.Indicaciones"
+		},
+		{
+			"id": "779aa3e0-500e-3499-910b-3d279bc14d8b",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "PortalClinico_Models.Indicaciones"
+		},
+		{
+			"id": "a24ec367-805a-3cf0-b948-65a319988f58",
+			"name": "PutS3Object",
+			"source": "PutS3Object",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "PortalClinico_Models.Indicaciones"
+		},
+		{
+			"id": "22c3d9b0-ec43-3910-9c17-f9e33857ddcd",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "PortalClinico_Models.Indicaciones"
+		},
+		{
+			"id": "08f82706-7d1f-30cb-b5a0-6cb73f230783",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "Canales"
+		},
+		{
+			"id": "37690e2e-11ab-31cf-b42f-457bdf620009",
+			"name": "LogMessage",
+			"source": "LogMessage",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "Canales"
+		},
+		{
+			"id": "d80335cd-223f-3989-b040-d1e1e0aa4433",
+			"name": "PutDatabaseRecord",
+			"source": "PutDatabaseRecord",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "Canales"
+		},
+		{
+			"id": "f1cd35c3-276b-3a70-98a3-f05e4f774004",
+			"name": "ExecuteSQLRecord",
+			"source": "ExecuteSQLRecord",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "Canales"
+		},
+		{
+			"id": "c391662b-3549-34a8-8062-bc67c30c96f0",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "Canales"
+		},
+		{
+			"id": "b62ecc52-58af-3839-aa43-854b2f448a2d",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "Canales"
+		},
+		{
+			"id": "08f82706-7d1f-30cb-b5a0-6cb73f230783",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "Compa\u00f1ias"
+		},
+		{
+			"id": "d80335cd-223f-3989-b040-d1e1e0aa4433",
+			"name": "PutDatabaseRecord",
+			"source": "PutDatabaseRecord",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "Compa\u00f1ias"
+		},
+		{
+			"id": "37690e2e-11ab-31cf-b42f-457bdf620009",
+			"name": "LogMessage",
+			"source": "LogMessage",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "Compa\u00f1ias"
+		},
+		{
+			"id": "f1cd35c3-276b-3a70-98a3-f05e4f774004",
+			"name": "ExecuteSQLRecord",
+			"source": "ExecuteSQLRecord",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "Compa\u00f1ias"
+		},
+		{
+			"id": "c391662b-3549-34a8-8062-bc67c30c96f0",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "Compa\u00f1ias"
+		},
+		{
+			"id": "b62ecc52-58af-3839-aa43-854b2f448a2d",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "Compa\u00f1ias"
+		},
+		{
+			"id": "08f82706-7d1f-30cb-b5a0-6cb73f230783",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "Estrategias Canales"
+		},
+		{
+			"id": "37690e2e-11ab-31cf-b42f-457bdf620009",
+			"name": "LogMessage",
+			"source": "LogMessage",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "Estrategias Canales"
+		},
+		{
+			"id": "d80335cd-223f-3989-b040-d1e1e0aa4433",
+			"name": "PutDatabaseRecord",
+			"source": "PutDatabaseRecord",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "Estrategias Canales"
+		},
+		{
+			"id": "f1cd35c3-276b-3a70-98a3-f05e4f774004",
+			"name": "ExecuteSQLRecord",
+			"source": "ExecuteSQLRecord",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "Estrategias Canales"
+		},
+		{
+			"id": "c391662b-3549-34a8-8062-bc67c30c96f0",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "Estrategias Canales"
+		},
+		{
+			"id": "b62ecc52-58af-3839-aa43-854b2f448a2d",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "Estrategias Canales"
+		},
+		{
+			"id": "08f82706-7d1f-30cb-b5a0-6cb73f230783",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "Planes"
+		},
+		{
+			"id": "37690e2e-11ab-31cf-b42f-457bdf620009",
+			"name": "LogMessage",
+			"source": "LogMessage",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "Planes"
+		},
+		{
+			"id": "d80335cd-223f-3989-b040-d1e1e0aa4433",
+			"name": "PutDatabaseRecord",
+			"source": "PutDatabaseRecord",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "Planes"
+		},
+		{
+			"id": "f1cd35c3-276b-3a70-98a3-f05e4f774004",
+			"name": "ExecuteSQLRecord",
+			"source": "ExecuteSQLRecord",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "Planes"
+		},
+		{
+			"id": "c391662b-3549-34a8-8062-bc67c30c96f0",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "Planes"
+		},
+		{
+			"id": "b62ecc52-58af-3839-aa43-854b2f448a2d",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "Planes"
+		},
+		{
+			"id": "08f82706-7d1f-30cb-b5a0-6cb73f230783",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "Estados Confirmaciones Horas"
+		},
+		{
+			"id": "37690e2e-11ab-31cf-b42f-457bdf620009",
+			"name": "LogMessage",
+			"source": "LogMessage",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "Estados Confirmaciones Horas"
+		},
+		{
+			"id": "d80335cd-223f-3989-b040-d1e1e0aa4433",
+			"name": "PutDatabaseRecord",
+			"source": "PutDatabaseRecord",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "Estados Confirmaciones Horas"
+		},
+		{
+			"id": "f1cd35c3-276b-3a70-98a3-f05e4f774004",
+			"name": "ExecuteSQLRecord",
+			"source": "ExecuteSQLRecord",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "Estados Confirmaciones Horas"
+		},
+		{
+			"id": "c391662b-3549-34a8-8062-bc67c30c96f0",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "Estados Confirmaciones Horas"
+		},
+		{
+			"id": "b62ecc52-58af-3839-aa43-854b2f448a2d",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "Estados Confirmaciones Horas"
+		},
+		{
+			"id": "08f82706-7d1f-30cb-b5a0-6cb73f230783",
+			"name": "PutSQL",
+			"source": "PutSQL",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "Servicios"
+		},
+		{
+			"id": "37690e2e-11ab-31cf-b42f-457bdf620009",
+			"name": "LogMessage",
+			"source": "LogMessage",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "Servicios"
+		},
+		{
+			"id": "d80335cd-223f-3989-b040-d1e1e0aa4433",
+			"name": "PutDatabaseRecord",
+			"source": "PutDatabaseRecord",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "Servicios"
+		},
+		{
+			"id": "f1cd35c3-276b-3a70-98a3-f05e4f774004",
+			"name": "ExecuteSQLRecord",
+			"source": "ExecuteSQLRecord",
+			"owner": "Data Eng",
+			"status": "STOPPED",
+			"group": "Servicios"
+		}
+	],
+	"schedules": []
+}

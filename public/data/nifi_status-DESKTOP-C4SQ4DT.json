@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-02-16T17:27:11.912531",
+  "kpis": {
+    "success_rate": 72.6,
+    "failed_count": 207,
+    "active_count": 0
+  },
+  "active_processes": []
+}

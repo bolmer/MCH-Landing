@@ -1,0 +1,200 @@
+2026-02-25 19:41:06,561 | INFO | INICIANDO CICLO DE GOBERNANZA NIFI (Unified Suite)
+2026-02-25 19:41:06,563 | INFO | [INICIO]: Backup de Flujo NiFi
+2026-02-25 19:41:06,828 | ERROR | [ERROR] en Backup de Flujo NiFi: Command 'uv run python scripts/CICLO_GOBERNANZA/backup_nifi.py' returned non-zero exit status 2.
+2026-02-25 19:41:06,829 | ERROR | Salida STDERR: C:\ProgramData\anaconda3\python.exe: can't open file 'C:\\Users\\Usuario\\OneDrive - UC CHRISTUS Chile\\Proyectos\\nifi_backup\\dashboard\\scripts\\CICLO_GOBERNANZA\\backup_nifi.py': [Errno 2] No such file or directory
+
+2026-02-25 19:41:06,831 | WARNING | El backup falló. Intentando continuar con el último backup local...
+2026-02-25 19:41:06,832 | WARNING | No se pudo detectar la ruta del backup generado. Usando escaneo de carpeta...
+2026-02-25 19:41:06,833 | CRITICAL | No se pudo identificar un archivo de backup válido.
+2026-02-26 08:43:04,271 | INFO | INICIANDO CICLO DE GOBERNANZA NIFI (Unified Suite)
+2026-02-26 08:43:04,271 | INFO | [INICIO]: Backup de Flujo NiFi
+2026-02-26 08:43:04,474 | ERROR | [ERROR] en Backup de Flujo NiFi: Command 'uv run python scripts/CICLO_GOBERNANZA/backup_nifi.py' returned non-zero exit status 2.
+2026-02-26 08:43:04,474 | ERROR | Salida STDERR: C:\ProgramData\anaconda3\python.exe: can't open file 'C:\\Users\\Usuario\\OneDrive - UC CHRISTUS Chile\\Proyectos\\nifi_backup\\dashboard\\scripts\\CICLO_GOBERNANZA\\backup_nifi.py': [Errno 2] No such file or directory
+
+2026-02-26 08:43:04,475 | WARNING | El backup falló. Intentando continuar con el último backup local...
+2026-02-26 08:43:04,475 | WARNING | No se pudo detectar la ruta del backup generado. Usando escaneo de carpeta...
+2026-02-26 08:43:04,475 | CRITICAL | No se pudo identificar un archivo de backup válido.
+2026-02-26 08:43:42,928 | INFO | INICIANDO CICLO DE GOBERNANZA NIFI (Unified Suite)
+2026-02-26 08:43:42,928 | INFO | [INICIO]: Backup de Flujo NiFi
+2026-02-26 08:43:43,172 | ERROR | [ERROR] en Backup de Flujo NiFi: Command 'uv run python scripts/CICLO_GOBERNANZA/backup_nifi.py' returned non-zero exit status 2.
+2026-02-26 08:43:43,172 | ERROR | Salida STDERR: C:\ProgramData\anaconda3\python.exe: can't open file 'C:\\Users\\Usuario\\OneDrive - UC CHRISTUS Chile\\Proyectos\\nifi_backup\\dashboard\\scripts\\CICLO_GOBERNANZA\\backup_nifi.py': [Errno 2] No such file or directory
+
+2026-02-26 08:43:43,172 | WARNING | El backup falló. Intentando continuar con el último backup local...
+2026-02-26 08:43:43,172 | WARNING | No se pudo detectar la ruta del backup generado. Usando escaneo de carpeta...
+2026-02-26 08:43:43,172 | CRITICAL | No se pudo identificar un archivo de backup válido.
+2026-02-26 08:43:48,293 | INFO | INICIANDO CICLO DE GOBERNANZA NIFI (Unified Suite)
+2026-02-26 08:43:48,294 | INFO | [INICIO]: Backup de Flujo NiFi
+2026-02-26 08:43:48,485 | ERROR | [ERROR] en Backup de Flujo NiFi: Command 'uv run python scripts/CICLO_GOBERNANZA/backup_nifi.py' returned non-zero exit status 2.
+2026-02-26 08:43:48,485 | ERROR | Salida STDERR: C:\ProgramData\anaconda3\python.exe: can't open file 'C:\\Users\\Usuario\\OneDrive - UC CHRISTUS Chile\\Proyectos\\nifi_backup\\dashboard\\scripts\\CICLO_GOBERNANZA\\backup_nifi.py': [Errno 2] No such file or directory
+
+2026-02-26 08:43:48,486 | WARNING | El backup falló. Intentando continuar con el último backup local...
+2026-02-26 08:43:48,486 | WARNING | No se pudo detectar la ruta del backup generado. Usando escaneo de carpeta...
+2026-02-26 08:43:48,486 | CRITICAL | No se pudo identificar un archivo de backup válido.
+2026-02-26 08:43:49,167 | INFO | INICIANDO CICLO DE GOBERNANZA NIFI (Unified Suite)
+2026-02-26 08:43:49,167 | INFO | [INICIO]: Backup de Flujo NiFi
+2026-02-26 08:43:49,423 | ERROR | [ERROR] en Backup de Flujo NiFi: Command 'uv run python scripts/CICLO_GOBERNANZA/backup_nifi.py' returned non-zero exit status 2.
+2026-02-26 08:43:49,423 | ERROR | Salida STDERR: C:\ProgramData\anaconda3\python.exe: can't open file 'C:\\Users\\Usuario\\OneDrive - UC CHRISTUS Chile\\Proyectos\\nifi_backup\\dashboard\\scripts\\CICLO_GOBERNANZA\\backup_nifi.py': [Errno 2] No such file or directory
+
+2026-02-26 08:43:49,425 | WARNING | El backup falló. Intentando continuar con el último backup local...
+2026-02-26 08:43:49,425 | WARNING | No se pudo detectar la ruta del backup generado. Usando escaneo de carpeta...
+2026-02-26 08:43:49,425 | CRITICAL | No se pudo identificar un archivo de backup válido.
+2026-02-26 08:46:24,476 | INFO | INICIANDO CICLO DE GOBERNANZA NIFI (Unified Suite)
+2026-02-26 08:46:24,476 | INFO | [INICIO]: Backup de Flujo NiFi
+2026-02-26 08:46:24,724 | ERROR | [ERROR] en Backup de Flujo NiFi: Command 'uv run python scripts/CICLO_GOBERNANZA/backup_nifi.py' returned non-zero exit status 2.
+2026-02-26 08:46:24,724 | ERROR | Salida STDERR: C:\ProgramData\anaconda3\python.exe: can't open file 'C:\\Users\\Usuario\\OneDrive - UC CHRISTUS Chile\\Proyectos\\nifi_backup\\dashboard\\scripts\\CICLO_GOBERNANZA\\backup_nifi.py': [Errno 2] No such file or directory
+
+2026-02-26 08:46:24,724 | WARNING | El backup falló. Intentando continuar con el último backup local...
+2026-02-26 08:46:24,725 | WARNING | No se pudo detectar la ruta del backup generado. Usando escaneo de carpeta...
+2026-02-26 08:46:24,726 | CRITICAL | No se pudo identificar un archivo de backup válido.
+2026-02-26 08:46:25,835 | INFO | INICIANDO CICLO DE GOBERNANZA NIFI (Unified Suite)
+2026-02-26 08:46:25,835 | INFO | [INICIO]: Backup de Flujo NiFi
+2026-02-26 08:46:26,148 | ERROR | [ERROR] en Backup de Flujo NiFi: Command 'uv run python scripts/CICLO_GOBERNANZA/backup_nifi.py' returned non-zero exit status 2.
+2026-02-26 08:46:26,148 | ERROR | Salida STDERR: C:\ProgramData\anaconda3\python.exe: can't open file 'C:\\Users\\Usuario\\OneDrive - UC CHRISTUS Chile\\Proyectos\\nifi_backup\\dashboard\\scripts\\CICLO_GOBERNANZA\\backup_nifi.py': [Errno 2] No such file or directory
+
+2026-02-26 08:46:26,148 | WARNING | El backup falló. Intentando continuar con el último backup local...
+2026-02-26 08:46:26,149 | WARNING | No se pudo detectar la ruta del backup generado. Usando escaneo de carpeta...
+2026-02-26 08:46:26,150 | CRITICAL | No se pudo identificar un archivo de backup válido.
+2026-02-26 08:46:27,588 | INFO | INICIANDO CICLO DE GOBERNANZA NIFI (Unified Suite)
+2026-02-26 08:46:27,588 | INFO | [INICIO]: Backup de Flujo NiFi
+2026-02-26 08:46:27,821 | ERROR | [ERROR] en Backup de Flujo NiFi: Command 'uv run python scripts/CICLO_GOBERNANZA/backup_nifi.py' returned non-zero exit status 2.
+2026-02-26 08:46:27,822 | ERROR | Salida STDERR: C:\ProgramData\anaconda3\python.exe: can't open file 'C:\\Users\\Usuario\\OneDrive - UC CHRISTUS Chile\\Proyectos\\nifi_backup\\dashboard\\scripts\\CICLO_GOBERNANZA\\backup_nifi.py': [Errno 2] No such file or directory
+
+2026-02-26 08:46:27,822 | WARNING | El backup falló. Intentando continuar con el último backup local...
+2026-02-26 08:46:27,822 | WARNING | No se pudo detectar la ruta del backup generado. Usando escaneo de carpeta...
+2026-02-26 08:46:27,825 | CRITICAL | No se pudo identificar un archivo de backup válido.
+2026-02-26 08:46:28,665 | INFO | INICIANDO CICLO DE GOBERNANZA NIFI (Unified Suite)
+2026-02-26 08:46:28,666 | INFO | [INICIO]: Backup de Flujo NiFi
+2026-02-26 08:46:28,966 | ERROR | [ERROR] en Backup de Flujo NiFi: Command 'uv run python scripts/CICLO_GOBERNANZA/backup_nifi.py' returned non-zero exit status 2.
+2026-02-26 08:46:28,966 | ERROR | Salida STDERR: C:\ProgramData\anaconda3\python.exe: can't open file 'C:\\Users\\Usuario\\OneDrive - UC CHRISTUS Chile\\Proyectos\\nifi_backup\\dashboard\\scripts\\CICLO_GOBERNANZA\\backup_nifi.py': [Errno 2] No such file or directory
+
+2026-02-26 08:46:28,966 | WARNING | El backup falló. Intentando continuar con el último backup local...
+2026-02-26 08:46:28,966 | WARNING | No se pudo detectar la ruta del backup generado. Usando escaneo de carpeta...
+2026-02-26 08:46:28,967 | CRITICAL | No se pudo identificar un archivo de backup válido.
+2026-03-02 17:07:40,257 | INFO | INICIANDO CICLO DE GOBERNANZA NIFI (Unified Suite)
+2026-03-02 17:07:40,259 | INFO | [INICIO]: Backup de Flujo NiFi
+2026-03-02 17:07:40,463 | ERROR | [ERROR] en Backup de Flujo NiFi: Command 'uv run python scripts/CICLO_GOBERNANZA/backup_nifi.py' returned non-zero exit status 2.
+2026-03-02 17:07:40,463 | ERROR | Salida STDERR: C:\ProgramData\anaconda3\python.exe: can't open file 'C:\\Users\\Usuario\\OneDrive - UC CHRISTUS Chile\\Proyectos\\nifi_backup\\dashboard\\scripts\\CICLO_GOBERNANZA\\backup_nifi.py': [Errno 2] No such file or directory
+
+2026-03-02 17:07:40,463 | WARNING | El backup falló. Intentando continuar con el último backup local...
+2026-03-02 17:07:40,463 | WARNING | No se pudo detectar la ruta del backup generado. Usando escaneo de carpeta...
+2026-03-02 17:07:40,464 | CRITICAL | No se pudo identificar un archivo de backup válido.
+2026-03-02 17:10:42,863 | INFO | INICIANDO CICLO DE GOBERNANZA NIFI (Unified Suite)
+2026-03-02 17:10:42,864 | INFO | [INICIO]: Backup de Flujo NiFi
+2026-03-02 17:10:42,876 | INFO | INICIANDO CICLO DE GOBERNANZA NIFI (Unified Suite)
+2026-03-02 17:10:42,876 | INFO | [INICIO]: Backup de Flujo NiFi
+2026-03-02 17:10:43,190 | ERROR | [ERROR] en Backup de Flujo NiFi: Command 'uv run python scripts/CICLO_GOBERNANZA/backup_nifi.py' returned non-zero exit status 2.
+2026-03-02 17:10:43,190 | ERROR | Salida STDERR: C:\ProgramData\anaconda3\python.exe: can't open file 'C:\\Users\\Usuario\\OneDrive - UC CHRISTUS Chile\\Proyectos\\nifi_backup\\dashboard\\scripts\\CICLO_GOBERNANZA\\backup_nifi.py': [Errno 2] No such file or directory
+
+2026-03-02 17:10:43,190 | WARNING | El backup falló. Intentando continuar con el último backup local...
+2026-03-02 17:10:43,191 | WARNING | No se pudo detectar la ruta del backup generado. Usando escaneo de carpeta...
+2026-03-02 17:10:43,195 | CRITICAL | No se pudo identificar un archivo de backup válido.
+2026-03-02 17:10:43,232 | ERROR | [ERROR] en Backup de Flujo NiFi: Command 'uv run python scripts/CICLO_GOBERNANZA/backup_nifi.py' returned non-zero exit status 2.
+2026-03-02 17:10:43,232 | ERROR | Salida STDERR: C:\ProgramData\anaconda3\python.exe: can't open file 'C:\\Users\\Usuario\\OneDrive - UC CHRISTUS Chile\\Proyectos\\nifi_backup\\dashboard\\scripts\\CICLO_GOBERNANZA\\backup_nifi.py': [Errno 2] No such file or directory
+
+2026-03-02 17:10:43,233 | WARNING | El backup falló. Intentando continuar con el último backup local...
+2026-03-02 17:10:43,233 | WARNING | No se pudo detectar la ruta del backup generado. Usando escaneo de carpeta...
+2026-03-02 17:10:43,234 | CRITICAL | No se pudo identificar un archivo de backup válido.
+2026-03-02 17:10:48,864 | INFO | INICIANDO CICLO DE GOBERNANZA NIFI (Unified Suite)
+2026-03-02 17:10:48,864 | INFO | [INICIO]: Backup de Flujo NiFi
+2026-03-02 17:10:49,197 | ERROR | [ERROR] en Backup de Flujo NiFi: Command 'uv run python scripts/CICLO_GOBERNANZA/backup_nifi.py' returned non-zero exit status 2.
+2026-03-02 17:10:49,198 | ERROR | Salida STDERR: C:\ProgramData\anaconda3\python.exe: can't open file 'C:\\Users\\Usuario\\OneDrive - UC CHRISTUS Chile\\Proyectos\\nifi_backup\\dashboard\\scripts\\CICLO_GOBERNANZA\\backup_nifi.py': [Errno 2] No such file or directory
+
+2026-03-02 17:10:49,199 | WARNING | El backup falló. Intentando continuar con el último backup local...
+2026-03-02 17:10:49,199 | WARNING | No se pudo detectar la ruta del backup generado. Usando escaneo de carpeta...
+2026-03-02 17:10:49,200 | CRITICAL | No se pudo identificar un archivo de backup válido.
+2026-03-02 17:11:39,923 | INFO | INICIANDO CICLO DE GOBERNANZA NIFI (Unified Suite)
+2026-03-02 17:11:39,923 | INFO | [INICIO]: Backup de Flujo NiFi
+2026-03-02 17:11:40,093 | ERROR | [ERROR] en Backup de Flujo NiFi: Command 'uv run python scripts/CICLO_GOBERNANZA/backup_nifi.py' returned non-zero exit status 2.
+2026-03-02 17:11:40,093 | ERROR | Salida STDERR: C:\ProgramData\anaconda3\python.exe: can't open file 'C:\\Users\\Usuario\\OneDrive - UC CHRISTUS Chile\\Proyectos\\nifi_backup\\dashboard\\scripts\\CICLO_GOBERNANZA\\backup_nifi.py': [Errno 2] No such file or directory
+
+2026-03-02 17:11:40,093 | WARNING | El backup falló. Intentando continuar con el último backup local...
+2026-03-02 17:11:40,093 | WARNING | No se pudo detectar la ruta del backup generado. Usando escaneo de carpeta...
+2026-03-02 17:11:40,093 | CRITICAL | No se pudo identificar un archivo de backup válido.
+2026-03-02 17:12:06,987 | INFO | INICIANDO CICLO DE GOBERNANZA NIFI (Unified Suite)
+2026-03-02 17:12:06,987 | INFO | [INICIO]: Backup de Flujo NiFi
+2026-03-02 17:12:07,290 | ERROR | [ERROR] en Backup de Flujo NiFi: Command 'uv run python scripts/CICLO_GOBERNANZA/backup_nifi.py' returned non-zero exit status 2.
+2026-03-02 17:12:07,290 | ERROR | Salida STDERR: C:\ProgramData\anaconda3\python.exe: can't open file 'C:\\Users\\Usuario\\OneDrive - UC CHRISTUS Chile\\Proyectos\\nifi_backup\\dashboard\\scripts\\CICLO_GOBERNANZA\\backup_nifi.py': [Errno 2] No such file or directory
+
+2026-03-02 17:12:07,292 | WARNING | El backup falló. Intentando continuar con el último backup local...
+2026-03-02 17:12:07,292 | WARNING | No se pudo detectar la ruta del backup generado. Usando escaneo de carpeta...
+2026-03-02 17:12:07,293 | CRITICAL | No se pudo identificar un archivo de backup válido.
+2026-03-02 17:12:24,846 | INFO | INICIANDO CICLO DE GOBERNANZA NIFI (Unified Suite)
+2026-03-02 17:12:24,846 | INFO | [INICIO]: Backup de Flujo NiFi
+2026-03-02 17:12:25,165 | ERROR | [ERROR] en Backup de Flujo NiFi: Command 'uv run python scripts/CICLO_GOBERNANZA/backup_nifi.py' returned non-zero exit status 2.
+2026-03-02 17:12:25,165 | ERROR | Salida STDERR: C:\ProgramData\anaconda3\python.exe: can't open file 'C:\\Users\\Usuario\\OneDrive - UC CHRISTUS Chile\\Proyectos\\nifi_backup\\dashboard\\scripts\\CICLO_GOBERNANZA\\backup_nifi.py': [Errno 2] No such file or directory
+
+2026-03-02 17:12:25,165 | WARNING | El backup falló. Intentando continuar con el último backup local...
+2026-03-02 17:12:25,165 | WARNING | No se pudo detectar la ruta del backup generado. Usando escaneo de carpeta...
+2026-03-02 17:12:25,168 | CRITICAL | No se pudo identificar un archivo de backup válido.
+2026-03-02 17:12:45,820 | INFO | INICIANDO CICLO DE GOBERNANZA NIFI (Unified Suite)
+2026-03-02 17:12:45,820 | INFO | [INICIO]: Backup de Flujo NiFi
+2026-03-02 17:12:46,057 | ERROR | [ERROR] en Backup de Flujo NiFi: Command 'uv run python scripts/CICLO_GOBERNANZA/backup_nifi.py' returned non-zero exit status 2.
+2026-03-02 17:12:46,057 | ERROR | Salida STDERR: C:\ProgramData\anaconda3\python.exe: can't open file 'C:\\Users\\Usuario\\OneDrive - UC CHRISTUS Chile\\Proyectos\\nifi_backup\\dashboard\\scripts\\CICLO_GOBERNANZA\\backup_nifi.py': [Errno 2] No such file or directory
+
+2026-03-02 17:12:46,058 | WARNING | El backup falló. Intentando continuar con el último backup local...
+2026-03-02 17:12:46,058 | WARNING | No se pudo detectar la ruta del backup generado. Usando escaneo de carpeta...
+2026-03-02 17:12:46,058 | CRITICAL | No se pudo identificar un archivo de backup válido.
+2026-03-02 17:29:45,087 | INFO | INICIANDO CICLO DE GOBERNANZA NIFI (Unified Suite)
+2026-03-02 17:29:45,087 | INFO | [INICIO]: Backup de Flujo NiFi
+2026-03-02 17:29:45,258 | ERROR | [ERROR] en Backup de Flujo NiFi: Command 'uv run python scripts/CICLO_GOBERNANZA/backup_nifi.py' returned non-zero exit status 2.
+2026-03-02 17:29:45,258 | ERROR | Salida STDERR: C:\ProgramData\anaconda3\python.exe: can't open file 'C:\\Users\\Usuario\\OneDrive - UC CHRISTUS Chile\\Proyectos\\nifi_backup\\dashboard\\scripts\\CICLO_GOBERNANZA\\backup_nifi.py': [Errno 2] No such file or directory
+
+2026-03-02 17:29:45,258 | WARNING | El backup falló. Intentando continuar con el último backup local...
+2026-03-02 17:29:45,258 | WARNING | No se pudo detectar la ruta del backup generado. Usando escaneo de carpeta...
+2026-03-02 17:29:45,258 | CRITICAL | No se pudo identificar un archivo de backup válido.
+2026-03-02 17:30:38,594 | INFO | INICIANDO CICLO DE GOBERNANZA NIFI (Unified Suite)
+2026-03-02 17:30:38,596 | INFO | [INICIO]: Backup de Flujo NiFi
+2026-03-02 17:30:38,764 | ERROR | [ERROR] en Backup de Flujo NiFi: Command 'uv run python scripts/CICLO_GOBERNANZA/backup_nifi.py' returned non-zero exit status 2.
+2026-03-02 17:30:38,764 | ERROR | Salida STDERR: C:\ProgramData\anaconda3\python.exe: can't open file 'C:\\Users\\Usuario\\OneDrive - UC CHRISTUS Chile\\Proyectos\\nifi_backup\\dashboard\\scripts\\CICLO_GOBERNANZA\\backup_nifi.py': [Errno 2] No such file or directory
+
+2026-03-02 17:30:38,764 | WARNING | El backup falló. Intentando continuar con el último backup local...
+2026-03-02 17:30:38,764 | WARNING | No se pudo detectar la ruta del backup generado. Usando escaneo de carpeta...
+2026-03-02 17:30:38,764 | CRITICAL | No se pudo identificar un archivo de backup válido.
+2026-03-02 17:30:40,035 | INFO | INICIANDO CICLO DE GOBERNANZA NIFI (Unified Suite)
+2026-03-02 17:30:40,035 | INFO | [INICIO]: Backup de Flujo NiFi
+2026-03-02 17:30:40,207 | ERROR | [ERROR] en Backup de Flujo NiFi: Command 'uv run python scripts/CICLO_GOBERNANZA/backup_nifi.py' returned non-zero exit status 2.
+2026-03-02 17:30:40,208 | ERROR | Salida STDERR: C:\ProgramData\anaconda3\python.exe: can't open file 'C:\\Users\\Usuario\\OneDrive - UC CHRISTUS Chile\\Proyectos\\nifi_backup\\dashboard\\scripts\\CICLO_GOBERNANZA\\backup_nifi.py': [Errno 2] No such file or directory
+
+2026-03-02 17:30:40,208 | WARNING | El backup falló. Intentando continuar con el último backup local...
+2026-03-02 17:30:40,208 | WARNING | No se pudo detectar la ruta del backup generado. Usando escaneo de carpeta...
+2026-03-02 17:30:40,208 | CRITICAL | No se pudo identificar un archivo de backup válido.
+2026-03-02 17:30:46,129 | INFO | INICIANDO CICLO DE GOBERNANZA NIFI (Unified Suite)
+2026-03-02 17:30:46,129 | INFO | [INICIO]: Backup de Flujo NiFi
+2026-03-02 17:30:46,391 | ERROR | [ERROR] en Backup de Flujo NiFi: Command 'uv run python scripts/CICLO_GOBERNANZA/backup_nifi.py' returned non-zero exit status 2.
+2026-03-02 17:30:46,391 | ERROR | Salida STDERR: C:\ProgramData\anaconda3\python.exe: can't open file 'C:\\Users\\Usuario\\OneDrive - UC CHRISTUS Chile\\Proyectos\\nifi_backup\\dashboard\\scripts\\CICLO_GOBERNANZA\\backup_nifi.py': [Errno 2] No such file or directory
+
+2026-03-02 17:30:46,391 | WARNING | El backup falló. Intentando continuar con el último backup local...
+2026-03-02 17:30:46,391 | WARNING | No se pudo detectar la ruta del backup generado. Usando escaneo de carpeta...
+2026-03-02 17:30:46,391 | CRITICAL | No se pudo identificar un archivo de backup válido.
+2026-03-02 17:34:06,925 | INFO | INICIANDO CICLO DE GOBERNANZA NIFI (Unified Suite)
+2026-03-02 17:34:06,927 | INFO | [INICIO]: Backup de Flujo NiFi
+2026-03-02 17:34:07,518 | ERROR | [ERROR] en Backup de Flujo NiFi: Command 'uv run python scripts/CICLO_GOBERNANZA/backup_nifi.py' returned non-zero exit status 2.
+2026-03-02 17:34:07,518 | ERROR | Salida STDERR: C:\ProgramData\anaconda3\python.exe: can't open file 'C:\\Users\\Usuario\\OneDrive - UC CHRISTUS Chile\\Proyectos\\nifi_backup\\dashboard\\scripts\\CICLO_GOBERNANZA\\backup_nifi.py': [Errno 2] No such file or directory
+
+2026-03-02 17:34:07,518 | WARNING | El backup falló. Intentando continuar con el último backup local...
+2026-03-02 17:34:07,519 | WARNING | No se pudo detectar la ruta del backup generado. Usando escaneo de carpeta...
+2026-03-02 17:34:07,521 | CRITICAL | No se pudo identificar un archivo de backup válido.
+2026-03-02 17:36:20,649 | INFO | INICIANDO CICLO DE GOBERNANZA NIFI (Unified Suite)
+2026-03-02 17:36:20,649 | INFO | [INICIO]: Backup de Flujo NiFi
+2026-03-02 17:36:20,910 | ERROR | [ERROR] en Backup de Flujo NiFi: Command 'uv run python scripts/CICLO_GOBERNANZA/backup_nifi.py' returned non-zero exit status 2.
+2026-03-02 17:36:20,910 | ERROR | Salida STDERR: C:\ProgramData\anaconda3\python.exe: can't open file 'C:\\Users\\Usuario\\OneDrive - UC CHRISTUS Chile\\Proyectos\\nifi_backup\\dashboard\\scripts\\CICLO_GOBERNANZA\\backup_nifi.py': [Errno 2] No such file or directory
+
+2026-03-02 17:36:20,910 | WARNING | El backup falló. Intentando continuar con el último backup local...
+2026-03-02 17:36:20,910 | WARNING | No se pudo detectar la ruta del backup generado. Usando escaneo de carpeta...
+2026-03-02 17:36:20,910 | CRITICAL | No se pudo identificar un archivo de backup válido.
+2026-03-02 17:37:17,299 | INFO | INICIANDO CICLO DE GOBERNANZA NIFI (Unified Suite)
+2026-03-02 17:37:17,299 | INFO | [INICIO]: Backup de Flujo NiFi
+2026-03-02 17:37:17,551 | ERROR | [ERROR] en Backup de Flujo NiFi: Command 'uv run python scripts/CICLO_GOBERNANZA/backup_nifi.py' returned non-zero exit status 2.
+2026-03-02 17:37:17,551 | ERROR | Salida STDERR: C:\ProgramData\anaconda3\python.exe: can't open file 'C:\\Users\\Usuario\\OneDrive - UC CHRISTUS Chile\\Proyectos\\nifi_backup\\dashboard\\scripts\\CICLO_GOBERNANZA\\backup_nifi.py': [Errno 2] No such file or directory
+
+2026-03-02 17:37:17,551 | WARNING | El backup falló. Intentando continuar con el último backup local...
+2026-03-02 17:37:17,552 | WARNING | No se pudo detectar la ruta del backup generado. Usando escaneo de carpeta...
+2026-03-02 17:37:17,552 | CRITICAL | No se pudo identificar un archivo de backup válido.
+2026-03-02 17:37:34,803 | INFO | INICIANDO CICLO DE GOBERNANZA NIFI (Unified Suite)
+2026-03-02 17:37:34,803 | INFO | [INICIO]: Backup de Flujo NiFi
+2026-03-02 17:37:35,054 | ERROR | [ERROR] en Backup de Flujo NiFi: Command 'uv run python scripts/CICLO_GOBERNANZA/backup_nifi.py' returned non-zero exit status 2.
+2026-03-02 17:37:35,054 | ERROR | Salida STDERR: C:\ProgramData\anaconda3\python.exe: can't open file 'C:\\Users\\Usuario\\OneDrive - UC CHRISTUS Chile\\Proyectos\\nifi_backup\\dashboard\\scripts\\CICLO_GOBERNANZA\\backup_nifi.py': [Errno 2] No such file or directory
+
+2026-03-02 17:37:35,054 | WARNING | El backup falló. Intentando continuar con el último backup local...
+2026-03-02 17:37:35,056 | WARNING | No se pudo detectar la ruta del backup generado. Usando escaneo de carpeta...
+2026-03-02 17:37:35,056 | CRITICAL | No se pudo identificar un archivo de backup válido.

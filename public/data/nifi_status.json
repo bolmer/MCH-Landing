@@ -1,0 +1,2869 @@
+{
+<<<<<<< HEAD
+  "timestamp": "2026-03-18T12:49:39.128357",
+  "kpis": {
+    "success_rate": 79.1,
+    "failed_count": 137,
+=======
+  "timestamp": "2026-03-13T13:12:49.116148",
+  "kpis": {
+    "success_rate": 67.9,
+    "failed_count": 245,
+>>>>>>> d7a76cbec79906c26aad51cc6c444d84ec040887
+    "active_count": 0
+  },
+  "active_processes": [],
+  "history": {
+<<<<<<< HEAD
+    "CARGAR_VIDAS_TOCADAS": {
+      "last_run": "2026-03-18T00:05:01.152000",
+      "status": "HEALTHY",
+      "duration_sec": 141
+    },
+    "carga_A930": {
+      "last_run": "2026-03-18T03:32:19.923000",
+      "status": "HEALTHY",
+      "duration_sec": 14
+    },
+    "carga_A937": {
+      "last_run": "2026-03-18T01:50:00.444000",
+      "status": "HEALTHY",
+      "duration_sec": 15
+    },
+    "carga_INC_ItmLcBt": {
+      "last_run": "2026-03-18T03:00:00.507000",
+      "status": "HEALTHY",
+      "duration_sec": 10
+    },
+    "carga_NTMN_DWHBI": {
+      "last_run": "2026-03-18T00:40:00.445000",
+      "status": "HEALTHY",
+      "duration_sec": 5068
+    },
+    "carga_SAP_FI_AR_CONTABLE_DET": {
+      "last_run": "2026-03-18T02:00:01.128000",
+      "status": "HEALTHY",
+      "duration_sec": 359
+    },
+    "carga_TIEMPOS_QX_FM": {
+      "last_run": "2026-03-18T01:00:01.198000",
+      "status": "HEALTHY",
+      "duration_sec": 967
+    },
+    "carga_ZISH_PM_PRESU": {
+      "last_run": "2026-03-18T00:20:00.418000",
+      "status": "HEALTHY",
+      "duration_sec": 8
+    },
+    "carga_ZTINT_CLOUD_SAP": {
+      "last_run": "2026-03-18T01:50:00.444000",
+      "status": "HEALTHY",
+      "duration_sec": 346
+    },
+    "carga_bsak": {
+      "last_run": "2026-03-18T00:40:00.437000",
+      "status": "HEALTHY",
+      "duration_sec": 3408
+    },
+    "carga_carga_datos_panel_rehabilitacion": {
+      "last_run": "2026-03-18T02:00:00.431000",
+      "status": "HEALTHY",
+      "duration_sec": 1023
+    },
+    "carga_ct_sex": {
+      "last_run": "2026-03-18T02:45:00.419000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_ct_uom": {
+      "last_run": "2026-03-18T02:50:01.125000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_datamart_trakcare_profesional": {
+      "last_run": "2026-03-18T01:00:00.577000",
+      "status": "HEALTHY",
+      "duration_sec": 7
+    },
+    "carga_eord": {
+      "last_run": "2026-03-18T03:33:29.201000",
+      "status": "HEALTHY",
+      "duration_sec": 20
+    },
+    "carga_mara": {
+      "last_run": "2026-03-18T07:30:01.128000",
+      "status": "HEALTHY",
+      "duration_sec": 14
+    },
+    "carga_mkol": {
+      "last_run": "2026-03-18T07:30:01.108000",
+      "status": "HEALTHY",
+      "duration_sec": 10
+    },
+    "carga_nfkl": {
+      "last_run": "2026-03-18T03:33:21.400000",
+      "status": "HEALTHY",
+      "duration_sec": 17
+    },
+    "carga_nkdi": {
+      "last_run": "2026-03-18T02:40:00.424000",
+      "status": "HEALTHY",
+      "duration_sec": 47
+    },
+    "carga_no2k": {
+      "last_run": "2026-03-18T02:35:01.126000",
+      "status": "HEALTHY",
+      "duration_sec": 10
+    },
+    "carga_prescripciones_farmacia": {
+      "last_run": "2026-03-18T06:00:00.420000",
+      "status": "HEALTHY",
+      "duration_sec": 615
+    },
+    "carga_prm_appointments_createdon_v3": {
+      "last_run": "2026-03-18T05:00:00.413000",
+      "status": "HEALTHY",
+      "duration_sec": 2706
+    },
+    "carga_prm_appointments_datefrom_v2": {
+      "last_run": "2026-03-18T05:00:00.413000",
+      "status": "HEALTHY",
+      "duration_sec": 3137
+    },
+    "carga_skat": {
+      "last_run": "2026-03-18T03:32:23.993000",
+      "status": "HEALTHY",
+      "duration_sec": 11
+    },
+    "carga_t001": {
+      "last_run": "2026-03-18T00:25:00.420000",
+      "status": "HEALTHY",
+      "duration_sec": 8
+    },
+    "carga_t001l": {
+      "last_run": "2026-03-18T03:33:21.801000",
+      "status": "HEALTHY",
+      "duration_sec": 25
+    },
+    "carga_t005u": {
+      "last_run": "2026-03-18T02:30:01.129000",
+      "status": "HEALTHY",
+      "duration_sec": 6
+    },
+    "carga_t156t": {
+      "last_run": "2026-03-18T03:34:18.933000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_t16fw": {
+      "last_run": "2026-03-18T03:37:09.837000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_tmp_rep_ta_pagos": {
+      "last_run": "2026-03-18T01:00:00.558000",
+      "status": "HEALTHY",
+      "duration_sec": 109
+    },
+    "carga_tn24t": {
+      "last_run": "2026-03-18T03:33:13.107000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_tnkat": {
+      "last_run": "2026-03-18T03:34:14.450000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_twlad": {
+      "last_run": "2026-03-18T03:37:37.834000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_uso_derivaciones": {
+      "last_run": "2026-03-18T02:00:00.418000",
+      "status": "HEALTHY",
+      "duration_sec": 52
+    },
+    "carga_zish_cmd_estados": {
+      "last_run": "2026-03-18T03:32:59.181000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_zish_mres": {
+      "last_run": "2026-03-18T02:25:00.419000",
+      "status": "HEALTHY",
+      "duration_sec": 40
+    },
+    "DASHBOARD_GERMAN": {
+      "last_run": "2026-03-18T10:00:00.417000",
+      "status": "FAILED",
+      "duration_sec": 33
+    },
+    "ORG_Indicaciones_FULL": {
+      "last_run": "2026-03-18T02:30:01.131000",
+      "status": "HEALTHY",
+      "duration_sec": 1376
+    },
+    "carga_A943": {
+      "last_run": "2026-03-18T03:34:19.703000",
+=======
+    "Cartera_Santander_Integral": {
+      "last_run": "2026-03-13T05:30:00.407000",
+      "status": "HEALTHY",
+      "duration_sec": 2
+    },
+    "OS_TICKET_TOMAS_SANTANDER": {
+      "last_run": "2026-03-13T07:50:00.407000",
+      "status": "HEALTHY",
+      "duration_sec": 955
+    },
+    "carga_EKKN_FULL": {
+      "last_run": "2026-03-13T11:50:33.428000",
+      "status": "HEALTHY",
+      "duration_sec": 112
+    },
+    "carga_LFBK": {
+      "last_run": "2026-03-13T03:32:31.028000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_NAPP_DWHBI": {
+      "last_run": "2026-03-13T01:42:08.093000",
+      "status": "HEALTHY",
+      "duration_sec": 1831
+    },
+    "carga_NNLZ_FULL": {
+      "last_run": "2026-03-13T12:14:00.416000",
+      "status": "HEALTHY",
+      "duration_sec": 498
+    },
+    "carga_ZISH99_01A": {
+      "last_run": "2026-03-13T02:20:00.406000",
+      "status": "HEALTHY",
+      "duration_sec": 803
+    },
+    "carga_ZISHPM_EST_MASKP": {
+      "last_run": "2026-03-13T02:25:00.408000",
+      "status": "HEALTHY",
+      "duration_sec": 211
+    },
+    "carga_ZISH_TAB_ESTST": {
+      "last_run": "2026-03-13T01:55:00.404000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_ZTINT_CLOUD_SAP_DWHBI": {
+      "last_run": "2026-03-13T01:50:00.419000",
+      "status": "HEALTHY",
+      "duration_sec": 344
+    },
+    "carga_a931": {
+      "last_run": "2026-03-13T00:30:34.458000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_adcp": {
+      "last_run": "2026-03-13T02:55:00.463000",
+      "status": "HEALTHY",
+      "duration_sec": 8
+    },
+    "carga_bse_clr": {
+      "last_run": "2026-03-13T01:10:03.028000",
+      "status": "HEALTHY",
+      "duration_sec": 3802
+    },
+    "carga_bsim": {
+      "last_run": "2026-03-13T00:30:01.285000",
+      "status": "HEALTHY",
+      "duration_sec": 3220
+    },
+    "carga_faglflexa": {
+      "last_run": "2026-03-13T03:32:39.223000",
+      "status": "HEALTHY",
+      "duration_sec": 6
+    },
+    "carga_ges_eno": {
+      "last_run": "2026-03-13T02:00:00.418000",
+      "status": "HEALTHY",
+      "duration_sec": 10
+    },
+    "carga_iris_atenciones_urgencia": {
+      "last_run": "2026-03-13T02:00:00.422000",
+      "status": "HEALTHY",
+      "duration_sec": 713
+    },
+    "carga_makt": {
+      "last_run": "2026-03-13T07:30:01.084000",
+      "status": "HEALTHY",
+      "duration_sec": 9
+    },
+    "carga_mr_encentry": {
+      "last_run": "2026-03-13T02:55:01.101000",
+      "status": "HEALTHY",
+      "duration_sec": 1054
+    },
+    "carga_nbau": {
+      "last_run": "2026-03-13T03:33:01.057000",
+      "status": "HEALTHY",
+      "duration_sec": 7
+    },
+    "carga_noek": {
+      "last_run": "2026-03-13T03:37:15.898000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_ntpk": {
+      "last_run": "2026-03-13T00:20:01.139000",
+      "status": "HEALTHY",
+      "duration_sec": 19
+    },
+    "carga_pa_patmas": {
+      "last_run": "2026-03-13T02:55:00.506000",
+      "status": "HEALTHY",
+      "duration_sec": 1767
+    },
+    "carga_pac_bed": {
+      "last_run": "2026-03-13T03:00:00.422000",
+      "status": "HEALTHY",
+      "duration_sec": 6
+    },
+    "carga_rbkp": {
+      "last_run": "2026-03-13T02:45:01.089000",
+      "status": "HEALTHY",
+      "duration_sec": 208
+    },
+    "carga_setheadert": {
+      "last_run": "2026-03-13T03:32:42.818000",
+      "status": "HEALTHY",
+      "duration_sec": 7
+    },
+    "carga_setleaf": {
+      "last_run": "2026-03-13T00:25:00.413000",
+      "status": "HEALTHY",
+      "duration_sec": 7
+    },
+    "carga_t006a": {
+      "last_run": "2026-03-13T07:30:01.095000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_tiempos_quirurgicos_tc": {
+      "last_run": "2026-03-13T01:00:01.112000",
+      "status": "HEALTHY",
+      "duration_sec": 13
+    },
+    "carga_tn11h": {
+      "last_run": "2026-03-13T03:34:14.440000",
+      "status": "HEALTHY",
+      "duration_sec": 6
+    },
+    "carga_zishpm033_nfpz": {
+      "last_run": "2026-03-13T02:05:00.398000",
+      "status": "HEALTHY",
+      "duration_sec": 132
+    },
+    "carga_Custom_CLUC_Integration_ERP_DatosExternos": {
+      "last_run": "2026-03-13T02:45:00.420000",
+      "status": "HEALTHY",
+      "duration_sec": 12
+    },
+    "carga_FAGL_011QT": {
+      "last_run": "2026-03-13T05:17:47.155000",
+      "status": "HEALTHY",
+      "duration_sec": 7
+    },
+    "carga_KONP": {
+      "last_run": "2026-03-13T02:35:01.100000",
+      "status": "HEALTHY",
+      "duration_sec": 1479
+    },
+    "carga_MARM": {
+      "last_run": "2026-03-13T03:33:11.378000",
+      "status": "HEALTHY",
+      "duration_sec": 9
+    },
+    "carga_NAPP": {
+      "last_run": "2026-03-13T01:42:08.093000",
+      "status": "HEALTHY",
+      "duration_sec": 898
+    },
+    "carga_NBEW_FULL": {
+      "last_run": "2026-03-13T00:35:00.444000",
+      "status": "HEALTHY",
+      "duration_sec": 3119
+    },
+    "carga_NFAL_INC": {
+      "last_run": "2026-03-13T13:02:00.413000",
+      "status": "HEALTHY",
+      "duration_sec": 40
+    },
+    "carga_NFPZ_FULL": {
+      "last_run": "2026-03-13T01:45:00.401000",
+      "status": "HEALTHY",
+      "duration_sec": 561
+    },
+    "carga_VBRK": {
+      "last_run": "2026-03-13T00:15:00.408000",
+      "status": "HEALTHY",
+      "duration_sec": 7546
+    },
+    "carga_ZFI_SIMUCREDP": {
+      "last_run": "2026-03-13T03:32:48.461000",
+      "status": "HEALTHY",
+      "duration_sec": 7
+    },
+    "carga_ZISTD0009PFCOMCA": {
+      "last_run": "2026-03-13T02:10:00.403000",
+      "status": "HEALTHY",
+      "duration_sec": 55
+    },
+    "carga_admconvenios": {
+      "last_run": "2026-03-13T06:00:00.403000",
+      "status": "HEALTHY",
+      "duration_sec": 2123
+    },
+    "carga_base_tiempos_cx": {
+      "last_run": "2026-03-13T02:30:01.246000",
+      "status": "HEALTHY",
+      "duration_sec": 31
+    },
+    "carga_bsad": {
+      "last_run": "2026-03-13T00:15:00.399000",
+      "status": "HEALTHY",
+      "duration_sec": 5715
+    },
+    "carga_c501": {
+      "last_run": "2026-03-13T02:15:00.398000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_ct_acuity": {
+      "last_run": "2026-03-13T02:55:00.471000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_mrc_encentrytype": {
+      "last_run": "2026-03-13T02:45:01.095000",
+      "status": "HEALTHY",
+      "duration_sec": 7
+    },
+    "carga_mssl": {
+      "last_run": "2026-03-13T07:30:01.091000",
+      "status": "HEALTHY",
+      "duration_sec": 6
+    },
+    "carga_nicp": {
+      "last_run": "2026-03-13T03:33:25.805000",
+      "status": "HEALTHY",
+      "duration_sec": 33
+    },
+    "carga_norg": {
+      "last_run": "2026-03-13T03:36:36.462000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_ntpt": {
+      "last_run": "2026-03-13T03:32:18.729000",
+>>>>>>> d7a76cbec79906c26aad51cc6c444d84ec040887
+      "status": "HEALTHY",
+      "duration_sec": 12
+    },
+<<<<<<< HEAD
+    "carga_KNA1": {
+      "last_run": "2026-03-18T02:40:00.423000",
+      "status": "HEALTHY",
+      "duration_sec": 156
+    },
+    "carga_MARC": {
+      "last_run": "2026-03-18T01:50:00.423000",
+      "status": "HEALTHY",
+      "duration_sec": 99
+    },
+    "carga_adrp": {
+      "last_run": "2026-03-18T03:33:28.747000",
+      "status": "HEALTHY",
+      "duration_sec": 20
+    },
+    "carga_arc_insurancetype": {
+      "last_run": "2026-03-18T02:45:01.113000",
+      "status": "HEALTHY",
+      "duration_sec": 6
+    },
+    "carga_bkpf": {
+      "last_run": "2026-03-18T00:01:00.415000",
+      "status": "HEALTHY",
+      "duration_sec": 3155
+    },
+    "carga_cepct": {
+      "last_run": "2026-03-18T03:33:16.254000",
+      "status": "HEALTHY",
+      "duration_sec": 7
+    },
+    "carga_ct_carprvtp": {
+      "last_run": "2026-03-18T02:40:01.186000",
+=======
+    "carga_org_indicaciones": {
+      "last_run": "2026-03-13T00:01:15.407000",
+      "status": "HEALTHY",
+      "duration_sec": 285
+    },
+    "carga_pa_person": {
+      "last_run": "2026-03-13T03:00:01.148000",
+      "status": "HEALTHY",
+      "duration_sec": 1482
+    },
+    "carga_pac_snomedterms": {
+      "last_run": "2026-03-13T03:00:00.446000",
+      "status": "HEALTHY",
+      "duration_sec": 94
+    },
+    "carga_rseg": {
+      "last_run": "2026-03-13T00:10:00.405000",
+      "status": "HEALTHY",
+      "duration_sec": 40
+    },
+    "carga_sabana_pabellones": {
+      "last_run": "2026-03-13T11:31:29.099000",
+      "status": "HEALTHY",
+      "duration_sec": 26
+    },
+    "carga_setheader": {
+      "last_run": "2026-03-13T00:20:00.437000",
+      "status": "HEALTHY",
+      "duration_sec": 9
+    },
+    "carga_ska1": {
+      "last_run": "2026-03-13T00:20:00.418000",
+      "status": "HEALTHY",
+      "duration_sec": 9
+    },
+    "carga_slas_os_ticket": {
+      "last_run": "2026-03-13T07:30:01.071000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_ss_user": {
+      "last_run": "2026-03-13T02:30:01.092000",
+      "status": "HEALTHY",
+      "duration_sec": 17
+    },
+    "carga_t023t": {
+      "last_run": "2026-03-13T02:55:01.116000",
+      "status": "HEALTHY",
+      "duration_sec": 7
+    },
+    "carga_tn14x": {
+      "last_run": "2026-03-13T00:20:00.423000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_usr21": {
+      "last_run": "2026-03-13T00:30:01.125000",
+      "status": "HEALTHY",
+      "duration_sec": 7
+    },
+    "carga_zint_uc_dte": {
+      "last_run": "2026-03-13T03:32:43.762000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_zishpm_est_maskh": {
+      "last_run": "2026-03-13T02:35:00.409000",
+      "status": "HEALTHY",
+      "duration_sec": 111
+    },
+    "CARGAR_VIDAS_TOCADAS": {
+      "last_run": "2026-03-13T00:05:00.405000",
+      "status": "HEALTHY",
+      "duration_sec": 143
+    },
+    "carga_A930": {
+      "last_run": "2026-03-13T03:32:15.826000",
+      "status": "HEALTHY",
+      "duration_sec": 15
+    },
+    "carga_A937": {
+      "last_run": "2026-03-13T01:50:00.420000",
+      "status": "HEALTHY",
+      "duration_sec": 17
+    },
+    "carga_INC_ItmLcBt": {
+      "last_run": "2026-03-13T03:00:00.448000",
+      "status": "HEALTHY",
+      "duration_sec": 10
+    },
+    "carga_NTMN_DWHBI": {
+      "last_run": "2026-03-13T00:40:00.424000",
+      "status": "HEALTHY",
+      "duration_sec": 5515
+    },
+    "carga_SAP_FI_AR_CONTABLE_DET": {
+      "last_run": "2026-03-13T02:00:01.148000",
+      "status": "HEALTHY",
+      "duration_sec": 435
+    },
+    "carga_TIEMPOS_QX_FM": {
+      "last_run": "2026-03-13T01:00:01.169000",
+      "status": "HEALTHY",
+      "duration_sec": 959
+    },
+    "carga_ZISH_PM_PRESU": {
+      "last_run": "2026-03-13T00:20:00.414000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_ZTINT_CLOUD_SAP": {
+      "last_run": "2026-03-13T01:50:00.419000",
+      "status": "HEALTHY",
+      "duration_sec": 360
+    },
+    "carga_bsak": {
+      "last_run": "2026-03-13T00:40:00.414000",
+      "status": "HEALTHY",
+      "duration_sec": 3393
+    },
+    "carga_carga_datos_panel_rehabilitacion": {
+      "last_run": "2026-03-13T02:00:00.425000",
+      "status": "HEALTHY",
+      "duration_sec": 1038
+    },
+    "carga_ct_sex": {
+      "last_run": "2026-03-13T02:45:00.403000",
+      "status": "HEALTHY",
+      "duration_sec": 6
+    },
+    "carga_ct_uom": {
+      "last_run": "2026-03-13T02:50:01.081000",
+      "status": "HEALTHY",
+      "duration_sec": 9
+    },
+    "carga_datamart_trakcare_profesional": {
+      "last_run": "2026-03-13T01:00:01.164000",
+      "status": "HEALTHY",
+      "duration_sec": 9
+    },
+    "carga_eord": {
+      "last_run": "2026-03-13T03:33:25.107000",
+      "status": "HEALTHY",
+      "duration_sec": 21
+    },
+    "carga_mara": {
+      "last_run": "2026-03-13T07:30:00.421000",
+      "status": "HEALTHY",
+      "duration_sec": 13
+    },
+    "carga_mkol": {
+      "last_run": "2026-03-13T07:30:01.225000",
+      "status": "HEALTHY",
+      "duration_sec": 8
+    },
+    "carga_nfkl": {
+      "last_run": "2026-03-13T03:33:17.320000",
+      "status": "HEALTHY",
+      "duration_sec": 29
+    },
+    "carga_nkdi": {
+      "last_run": "2026-03-13T02:40:01.080000",
+      "status": "HEALTHY",
+      "duration_sec": 10
+    },
+    "carga_no2k": {
+      "last_run": "2026-03-13T02:35:00.409000",
+      "status": "HEALTHY",
+      "duration_sec": 8
+    },
+    "carga_prescripciones_farmacia": {
+      "last_run": "2026-03-13T06:00:00.409000",
+      "status": "HEALTHY",
+      "duration_sec": 638
+    },
+    "carga_prm_appointments_createdon_v3": {
+      "last_run": "2026-03-13T05:00:00.405000",
+      "status": "HEALTHY",
+      "duration_sec": 2831
+    },
+    "carga_prm_appointments_datefrom_v2": {
+      "last_run": "2026-03-13T05:00:00.407000",
+      "status": "HEALTHY",
+      "duration_sec": 3225
+    },
+    "carga_skat": {
+      "last_run": "2026-03-13T03:32:19.912000",
+      "status": "HEALTHY",
+      "duration_sec": 11
+    },
+    "carga_t001": {
+      "last_run": "2026-03-13T00:25:00.413000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_t001l": {
+      "last_run": "2026-03-13T03:33:17.715000",
+      "status": "HEALTHY",
+      "duration_sec": 12
+    },
+    "carga_t005u": {
+      "last_run": "2026-03-13T02:30:00.421000",
+      "status": "HEALTHY",
+      "duration_sec": 12
+    },
+    "carga_t156t": {
+      "last_run": "2026-03-13T03:34:14.858000",
+      "status": "HEALTHY",
+      "duration_sec": 6
+    },
+    "carga_t16fw": {
+      "last_run": "2026-03-13T03:37:05.618000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_tmp_rep_ta_pagos": {
+      "last_run": "2026-03-13T01:00:00.521000",
+      "status": "HEALTHY",
+      "duration_sec": 111
+    },
+    "carga_tn24t": {
+      "last_run": "2026-03-13T03:33:08.290000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_tnkat": {
+      "last_run": "2026-03-13T03:34:10.370000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_twlad": {
+      "last_run": "2026-03-13T03:37:33.578000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_uso_derivaciones": {
+      "last_run": "2026-03-13T02:00:00.416000",
+      "status": "HEALTHY",
+      "duration_sec": 32
+    },
+    "carga_zish_cmd_estados": {
+      "last_run": "2026-03-13T03:32:55.081000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_zish_mres": {
+      "last_run": "2026-03-13T02:25:00.405000",
+      "status": "HEALTHY",
+      "duration_sec": 37
+    },
+    "Carga_Datos_Trakcare_IQ": {
+      "last_run": "2026-03-13T03:02:00.458000",
+      "status": "HEALTHY",
+      "duration_sec": 10
+    },
+    "WHPUOS_TIEMPOS_URGENCIA": {
+      "last_run": "2026-03-13T08:30:00.417000",
+      "status": "HEALTHY",
+      "duration_sec": 668
+    },
+    "carga_INC_Itm": {
+      "last_run": "2026-03-13T03:15:00.402000",
+      "status": "HEALTHY",
+      "duration_sec": 10
+    },
+    "carga_INC_ItmLoc": {
+      "last_run": "2026-03-13T03:15:00.409000",
+      "status": "HEALTHY",
+      "duration_sec": 7
+    },
+    "carga_QCLUCAPO": {
+      "last_run": "2026-03-13T11:17:24.358000",
+      "status": "FAILED",
+      "duration_sec": 30
+    },
+    "carga_ZISH_TAB_H_EST_FULL": {
+      "last_run": "2026-03-13T13:01:06.844000",
+      "status": "HEALTHY",
+      "duration_sec": 133
+    },
+    "carga_ZISTD0024PQT1_FULL": {
+      "last_run": "2026-03-13T11:50:32.612000",
+      "status": "HEALTHY",
+      "duration_sec": 23
+    },
+    "carga_a935": {
+      "last_run": "2026-03-13T00:30:01.158000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_a942": {
+      "last_run": "2026-03-13T00:30:35.670000",
+      "status": "HEALTHY",
+      "duration_sec": 12
+    },
+    "carga_a946": {
+      "last_run": "2026-03-13T01:55:00.404000",
+      "status": "HEALTHY",
+      "duration_sec": 197
+    },
+    "carga_adm_convenios": {
+      "last_run": "2026-03-13T12:38:22.996000",
+      "status": "HEALTHY",
+      "duration_sec": 7
+    },
+    "carga_csks": {
+      "last_run": "2026-03-13T03:33:18.130000",
+      "status": "HEALTHY",
+      "duration_sec": 15
+    },
+    "carga_ct_hospital": {
+      "last_run": "2026-03-13T02:40:00.409000",
+      "status": "HEALTHY",
+      "duration_sec": 9
+    },
+    "carga_datamart_trakcare_centro": {
+      "last_run": "2026-03-13T01:00:00.521000",
+      "status": "HEALTHY",
+      "duration_sec": 8
+    },
+    "carga_datamart_trakcare_departamento": {
+      "last_run": "2026-03-13T01:00:01.222000",
+      "status": "HEALTHY",
+      "duration_sec": 8
+    },
+    "carga_dg_consentimiento_paciente": {
+      "last_run": "2026-03-13T11:38:54.499000",
+      "status": "HEALTHY",
+      "duration_sec": 62
+    },
+    "carga_ekbe": {
+      "last_run": "2026-03-13T00:05:00.406000",
+      "status": "HEALTHY",
+      "duration_sec": 7868
+    },
+    "carga_konh": {
+      "last_run": "2026-03-13T00:55:00.715000",
+      "status": "HEALTHY",
+      "duration_sec": 2116
+    },
+    "carga_lfa1": {
+      "last_run": "2026-03-13T03:33:11.808000",
+      "status": "HEALTHY",
+      "duration_sec": 24
+    },
+    "carga_mkpf": {
+      "last_run": "2026-03-13T00:30:01.121000",
+      "status": "HEALTHY",
+      "duration_sec": 3033
+    },
+    "carga_mr_diagnos": {
+      "last_run": "2026-03-13T02:50:01.108000",
+      "status": "HEALTHY",
+      "duration_sec": 1123
+    },
+    "carga_mr_encentryitem": {
+      "last_run": "2026-03-13T02:50:00.448000",
+      "status": "HEALTHY",
+      "duration_sec": 2805
+    },
+    "carga_mrc_icddx": {
+      "last_run": "2026-03-13T02:40:01.093000",
+      "status": "HEALTHY",
+      "duration_sec": 21
+    },
+    "carga_ngeb": {
+      "last_run": "2026-03-13T03:33:10.871000",
+      "status": "HEALTHY",
+      "duration_sec": 10
+    },
+    "carga_npir": {
+      "last_run": "2026-03-13T02:50:01.163000",
+      "status": "HEALTHY",
+      "duration_sec": 569
+    },
+    "carga_ntmn": {
+      "last_run": "2026-03-13T00:40:00.424000",
+      "status": "HEALTHY",
+      "duration_sec": 2558
+    },
+    "carga_oec_ordercategory": {
+      "last_run": "2026-03-13T02:40:00.399000",
+      "status": "HEALTHY",
+      "duration_sec": 7
+    },
+    "carga_oec_ordertatus": {
+      "last_run": "2026-03-13T02:55:01.120000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_pac_causeofinjury": {
+      "last_run": "2026-03-13T02:35:01.084000",
+      "status": "HEALTHY",
+      "duration_sec": 8
+    },
+    "carga_pac_ward": {
+      "last_run": "2026-03-13T02:30:00.417000",
+      "status": "HEALTHY",
+      "duration_sec": 11
+    },
+    "carga_remasep_01": {
+      "last_run": "2026-03-13T00:06:00.400000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_tn14u": {
+      "last_run": "2026-03-13T03:32:56.245000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_tn16t": {
+      "last_run": "2026-03-13T03:32:48.399000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_tn16u": {
+      "last_run": "2026-03-13T02:15:00.403000",
+      "status": "HEALTHY",
+      "duration_sec": 7
+    },
+    "carga_zar_012s": {
+      "last_run": "2026-03-13T03:34:36.705000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_zishpa_uc_estado": {
+      "last_run": "2026-03-13T03:32:21.720000",
+      "status": "HEALTHY",
+      "duration_sec": 7
+    },
+    "carga_/ishneo/sddocfm": {
+      "last_run": "2026-03-13T01:45:00.407000",
+      "status": "HEALTHY",
+      "duration_sec": 810
+    },
+    "carga_A928": {
+      "last_run": "2026-03-13T02:01:00.420000",
+      "status": "HEALTHY",
+      "duration_sec": 216
+    },
+    "carga_ARC_ItemExternalCodes": {
+      "last_run": "2026-03-13T02:35:00.413000",
+      "status": "HEALTHY",
+      "duration_sec": 18
+    },
+    "carga_BSAS": {
+      "last_run": "2026-03-13T00:10:00.405000",
+      "status": "HEALTHY",
+      "duration_sec": 5097
+    },
+    "carga_BSIS": {
+      "last_run": "2026-03-13T00:01:00.406000",
+      "status": "HEALTHY",
+      "duration_sec": 13296
+    },
+    "carga_NLEI_INC": {
+      "last_run": "2026-03-13T13:00:30.422000",
+      "status": "HEALTHY",
+      "duration_sec": 452
+    },
+    "carga_OE_Dispensing": {
+      "last_run": "2026-03-12T16:56:00.408000",
+      "status": "HEALTHY",
+      "duration_sec": 4019
+    },
+    "carga_ZISH_PM_EST_QMS": {
+      "last_run": "2026-03-13T03:36:17.873000",
+>>>>>>> d7a76cbec79906c26aad51cc6c444d84ec040887
+      "status": "HEALTHY",
+      "duration_sec": 17
+    },
+<<<<<<< HEAD
+    "carga_ct_city": {
+      "last_run": "2026-03-18T02:30:00.426000",
+      "status": "HEALTHY",
+      "duration_sec": 6
+    },
+    "carga_dms_doc_files": {
+      "last_run": "2026-03-18T03:32:42.553000",
+      "status": "HEALTHY",
+      "duration_sec": 6
+    },
+    "carga_lagp": {
+      "last_run": "2026-03-18T07:30:01.133000",
+=======
+    "carga_a800": {
+      "last_run": "2026-03-13T00:30:00.423000",
+      "status": "HEALTHY",
+      "duration_sec": 3
+    },
+    "carga_a899": {
+      "last_run": "2026-03-13T00:30:01.087000",
+      "status": "HEALTHY",
+      "duration_sec": 13
+    },
+    "carga_a944": {
+      "last_run": "2026-03-13T00:30:01.112000",
+      "status": "HEALTHY",
+      "duration_sec": 7
+    },
+    "carga_base_tiempos_qx_red": {
+      "last_run": "2026-03-13T11:50:32.986000",
+      "status": "HEALTHY",
+      "duration_sec": 29
+    },
+    "carga_bseg_add": {
+      "last_run": "2026-03-13T01:55:00.399000",
+      "status": "HEALTHY",
+      "duration_sec": 85
+    },
+    "carga_bsid": {
+      "last_run": "2026-03-13T02:25:00.406000",
+      "status": "HEALTHY",
+      "duration_sec": 360
+    },
+    "carga_cdhdr": {
+      "last_run": "2026-03-13T00:01:00.413000",
+      "status": "HEALTHY",
+      "duration_sec": 9681
+    },
+    "carga_cskt": {
+      "last_run": "2026-03-13T03:34:07.565000",
+      "status": "HEALTHY",
+      "duration_sec": 7
+    },
+    "carga_ct_region": {
+      "last_run": "2026-03-13T03:00:01.128000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_ct_spec": {
+      "last_run": "2026-03-13T02:55:01.119000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_eina": {
+      "last_run": "2026-03-13T03:33:18.503000",
+      "status": "HEALTHY",
+      "duration_sec": 28
+    },
+    "carga_faglflext": {
+      "last_run": "2026-03-13T02:30:00.425000",
+      "status": "HEALTHY",
+      "duration_sec": 780
+    },
+    "carga_homologador_tc_sap_prest": {
+      "last_run": "2026-03-13T02:40:01.087000",
+      "status": "HEALTHY",
+      "duration_sec": 23
+    },
+    "carga_mard": {
+      "last_run": "2026-03-13T07:30:01.093000",
+      "status": "HEALTHY",
+      "duration_sec": 32
+    },
+    "carga_mochila_os_ticket": {
+      "last_run": "2026-03-13T07:30:01.073000",
+      "status": "HEALTHY",
+      "duration_sec": 344
+    },
+    "carga_mr_emergencycondition": {
+      "last_run": "2026-03-13T02:55:01.105000",
+      "status": "HEALTHY",
+      "duration_sec": 1065
+    },
+    "carga_mseg": {
+      "last_run": "2026-03-13T00:10:00.404000",
+      "status": "HEALTHY",
+      "duration_sec": 9486
+    },
+    "carga_nadr2": {
+      "last_run": "2026-03-13T03:33:39.063000",
+      "status": "HEALTHY",
+      "duration_sec": 19
+    },
+    "carga_pac_room": {
+      "last_run": "2026-03-13T02:35:01.106000",
+      "status": "HEALTHY",
+      "duration_sec": 15
+    },
+    "carga_prps": {
+      "last_run": "2026-03-13T03:32:11.367000",
+      "status": "HEALTHY",
+      "duration_sec": 10
+    },
+    "carga_remasep_consultas": {
+      "last_run": "2026-03-13T00:05:00.410000",
+      "status": "HEALTHY",
+      "duration_sec": 32
+    },
+    "carga_resb": {
+      "last_run": "2026-03-13T01:45:00.405000",
+      "status": "HEALTHY",
+      "duration_sec": 505
+    },
+    "carga_t001k": {
+      "last_run": "2026-03-13T03:34:05.748000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_t001w": {
+      "last_run": "2026-03-13T07:30:01.076000",
+      "status": "HEALTHY",
+      "duration_sec": 7
+    },
+    "carga_t163y": {
+      "last_run": "2026-03-13T00:20:00.438000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_tn20t": {
+      "last_run": "2026-03-13T03:36:47.946000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_zish_tab_itest": {
+      "last_run": "2026-03-13T02:30:01.102000",
+      "status": "HEALTHY",
+      "duration_sec": 336
+    },
+    "carga_zishpa_uc_0030": {
+      "last_run": "2026-03-13T01:13:29.298000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_ztint_uc_003_agd": {
+      "last_run": "2026-03-13T02:45:00.412000",
+      "status": "HEALTHY",
+      "duration_sec": 47
+    },
+    "DASHBOARD_GERMAN": {
+      "last_run": "2026-03-13T10:00:00.409000",
+      "status": "HEALTHY",
+      "duration_sec": 712
+    },
+    "ORG_Indicaciones_FULL": {
+      "last_run": "2026-03-13T02:30:01.100000",
+      "status": "HEALTHY",
+      "duration_sec": 1295
+    },
+    "carga_A943": {
+      "last_run": "2026-03-13T03:34:15.635000",
+      "status": "HEALTHY",
+      "duration_sec": 13
+    },
+    "carga_KNA1": {
+      "last_run": "2026-03-13T02:42:35.429000",
+      "status": "HEALTHY",
+      "duration_sec": 128
+    },
+    "carga_MARC": {
+      "last_run": "2026-03-13T01:50:00.434000",
+      "status": "HEALTHY",
+      "duration_sec": 92
+    },
+    "carga_adrp": {
+      "last_run": "2026-03-13T03:33:24.611000",
+      "status": "HEALTHY",
+      "duration_sec": 22
+    },
+    "carga_arc_insurancetype": {
+      "last_run": "2026-03-13T02:45:00.411000",
+      "status": "HEALTHY",
+      "duration_sec": 7
+    },
+    "carga_bkpf": {
+      "last_run": "2026-03-13T00:01:00.404000",
+      "status": "HEALTHY",
+      "duration_sec": 2922
+    },
+    "carga_cepct": {
+      "last_run": "2026-03-13T03:33:12.139000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_ct_carprvtp": {
+      "last_run": "2026-03-13T02:40:00.409000",
+      "status": "HEALTHY",
+      "duration_sec": 6
+    },
+    "carga_ct_city": {
+      "last_run": "2026-03-13T02:30:00.422000",
+      "status": "HEALTHY",
+      "duration_sec": 12
+    },
+    "carga_dms_doc_files": {
+      "last_run": "2026-03-13T03:32:38.453000",
+      "status": "HEALTHY",
+      "duration_sec": 9
+    },
+    "carga_lagp": {
+      "last_run": "2026-03-13T07:30:00.418000",
+>>>>>>> d7a76cbec79906c26aad51cc6c444d84ec040887
+      "status": "HEALTHY",
+      "duration_sec": 6
+    },
+    "carga_mr_adm": {
+<<<<<<< HEAD
+      "last_run": "2026-03-18T02:55:00.494000",
+      "status": "HEALTHY",
+      "duration_sec": 4269
+    },
+    "carga_mr_observations": {
+      "last_run": "2026-03-18T02:30:01.119000",
+      "status": "HEALTHY",
+      "duration_sec": 4080
+    },
+    "carga_mrc_observationitem": {
+      "last_run": "2026-03-18T02:30:01.272000",
+      "status": "HEALTHY",
+      "duration_sec": 10
+    },
+    "carga_ngpa": {
+      "last_run": "2026-03-18T03:32:40.343000",
+=======
+      "last_run": "2026-03-13T02:55:00.442000",
+      "status": "HEALTHY",
+      "duration_sec": 3164
+    },
+    "carga_mr_observations": {
+      "last_run": "2026-03-13T02:30:00.425000",
+      "status": "HEALTHY",
+      "duration_sec": 3655
+    },
+    "carga_mrc_observationitem": {
+      "last_run": "2026-03-13T02:30:01.244000",
+      "status": "HEALTHY",
+      "duration_sec": 11
+    },
+    "carga_ngpa": {
+      "last_run": "2026-03-13T03:32:36.243000",
+>>>>>>> d7a76cbec79906c26aad51cc6c444d84ec040887
+      "status": "HEALTHY",
+      "duration_sec": 9
+    },
+    "carga_prm_appointments_datefrom_det": {
+<<<<<<< HEAD
+      "last_run": "2026-03-18T05:00:00.423000",
+      "status": "HEALTHY",
+      "duration_sec": 2076
+    },
+    "carga_prm_entityavailabilities": {
+      "last_run": "2026-03-18T08:00:01.129000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_tiempos_quirurgicos_tc_pt_2": {
+      "last_run": "2026-03-18T02:00:00.430000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_tmp_rep_ta_coberturas": {
+      "last_run": "2026-03-18T01:00:01.309000",
+      "status": "HEALTHY",
+      "duration_sec": 137
+    },
+    "carga_tn11p": {
+      "last_run": "2026-03-18T00:35:00.447000",
+      "status": "HEALTHY",
+      "duration_sec": 6
+    },
+    "carga_tnkfa": {
+      "last_run": "2026-03-18T03:33:03.617000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_v_addr_usr": {
+      "last_run": "2026-03-18T03:32:21.384000",
+=======
+      "last_run": "2026-03-13T05:00:00.408000",
+      "status": "HEALTHY",
+      "duration_sec": 2118
+    },
+    "carga_prm_entityavailabilities": {
+      "last_run": "2026-03-13T08:00:01.092000",
+      "status": "HEALTHY",
+      "duration_sec": 207
+    },
+    "carga_tiempos_quirurgicos_tc_pt_2": {
+      "last_run": "2026-03-13T02:00:00.428000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_tmp_rep_ta_coberturas": {
+      "last_run": "2026-03-13T01:00:01.149000",
+      "status": "HEALTHY",
+      "duration_sec": 144
+    },
+    "carga_tn11p": {
+      "last_run": "2026-03-13T00:35:01.098000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_tnkfa": {
+      "last_run": "2026-03-13T03:32:59.480000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_v_addr_usr": {
+      "last_run": "2026-03-13T03:32:17.315000",
+>>>>>>> d7a76cbec79906c26aad51cc6c444d84ec040887
+      "status": "HEALTHY",
+      "duration_sec": 10
+    },
+    "carga_zbloq_pcte_vip": {
+<<<<<<< HEAD
+      "last_run": "2026-03-18T03:33:04.826000",
+=======
+      "last_run": "2026-03-13T03:33:00.646000",
+>>>>>>> d7a76cbec79906c26aad51cc6c444d84ec040887
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_zfi_eflujoyefect": {
+<<<<<<< HEAD
+      "last_run": "2026-03-18T02:50:00.421000",
+      "status": "HEALTHY",
+      "duration_sec": 159
+    },
+    "carga_A947": {
+      "last_run": "2026-03-18T02:01:00.420000",
+      "status": "HEALTHY",
+      "duration_sec": 71
+    },
+    "carga_FAGL_011ZC": {
+      "last_run": "2026-03-18T05:14:47.380000",
+=======
+      "last_run": "2026-03-13T02:50:01.081000",
+      "status": "HEALTHY",
+      "duration_sec": 157
+    },
+    "carga_A947": {
+      "last_run": "2026-03-13T02:01:00.406000",
+      "status": "HEALTHY",
+      "duration_sec": 84
+    },
+    "carga_FAGL_011ZC": {
+      "last_run": "2026-03-13T05:14:43.326000",
+>>>>>>> d7a76cbec79906c26aad51cc6c444d84ec040887
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_NCIR": {
+<<<<<<< HEAD
+      "last_run": "2026-03-18T00:05:01.154000",
+      "status": "HEALTHY",
+      "duration_sec": 5285
+    },
+    "carga_NLEI_FULL": {
+      "last_run": "2026-03-17T21:01:00.425000",
+      "status": "HEALTHY",
+      "duration_sec": 20813
+    },
+    "carga_SAP_FI_AR_CONTABLE": {
+      "last_run": "2026-03-18T02:00:00.419000",
+      "status": "HEALTHY",
+      "duration_sec": 148
+    },
+    "carga_VBRP_FULL": {
+      "last_run": "2026-03-17T19:01:00.412000",
+      "status": "HEALTHY",
+      "duration_sec": 21779
+    },
+    "carga_VBRP_INC": {
+      "last_run": "2026-03-18T04:01:00.423000",
+      "status": "HEALTHY",
+      "duration_sec": 696
+    },
+    "carga_ZFI_SIMUCREDK": {
+      "last_run": "2026-03-18T02:05:00.419000",
+=======
+      "last_run": "2026-03-13T00:05:00.406000",
+      "status": "HEALTHY",
+      "duration_sec": 5070
+    },
+    "carga_NLEI_FULL": {
+      "last_run": "2026-03-12T21:01:00.411000",
+      "status": "HEALTHY",
+      "duration_sec": 20849
+    },
+    "carga_SAP_FI_AR_CONTABLE": {
+      "last_run": "2026-03-13T02:00:01.098000",
+      "status": "HEALTHY",
+      "duration_sec": 147
+    },
+    "carga_VBRP_FULL": {
+      "last_run": "2026-03-12T19:01:00.398000",
+      "status": "HEALTHY",
+      "duration_sec": 21945
+    },
+    "carga_VBRP_INC": {
+      "last_run": "2026-03-13T03:06:00.454000",
+      "status": "HEALTHY",
+      "duration_sec": 700
+    },
+    "carga_ZFI_SIMUCREDK": {
+      "last_run": "2026-03-13T02:05:00.397000",
+>>>>>>> d7a76cbec79906c26aad51cc6c444d84ec040887
+      "status": "HEALTHY",
+      "duration_sec": 10
+    },
+    "carga_ZISH_FLUJO_CONT2_FULL": {
+<<<<<<< HEAD
+      "last_run": "2026-03-18T11:50:57.785000",
+      "status": "HEALTHY",
+      "duration_sec": 13
+    },
+    "carga_a934": {
+      "last_run": "2026-03-17T19:07:00.425000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_a938": {
+      "last_run": "2026-03-18T03:32:36.631000",
+      "status": "HEALTHY",
+      "duration_sec": 14
+    },
+    "carga_a945": {
+      "last_run": "2026-03-18T00:35:00.456000",
+      "status": "HEALTHY",
+      "duration_sec": 8
+    },
+    "carga_a948": {
+      "last_run": "2026-03-18T00:30:01.261000",
+      "status": "HEALTHY",
+      "duration_sec": 17
+    },
+    "carga_cajas_quirurgicas_tc": {
+      "last_run": "2026-03-18T12:30:00.427000",
+=======
+      "last_run": "2026-03-13T11:50:33.317000",
+      "status": "HEALTHY",
+      "duration_sec": 9
+    },
+    "carga_a934": {
+      "last_run": "2026-03-12T19:07:00.410000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_a938": {
+      "last_run": "2026-03-13T03:32:31.832000",
+      "status": "HEALTHY",
+      "duration_sec": 13
+    },
+    "carga_a945": {
+      "last_run": "2026-03-13T00:35:00.434000",
+      "status": "HEALTHY",
+      "duration_sec": 10
+    },
+    "carga_a948": {
+      "last_run": "2026-03-13T00:30:01.127000",
+      "status": "HEALTHY",
+      "duration_sec": 16
+    },
+    "carga_cajas_quirurgicas_tc": {
+      "last_run": "2026-03-13T13:00:00.413000",
+>>>>>>> d7a76cbec79906c26aad51cc6c444d84ec040887
+      "status": "HEALTHY",
+      "duration_sec": 23
+    },
+    "carga_ct_loc": {
+<<<<<<< HEAD
+      "last_run": "2026-03-18T02:50:01.127000",
+      "status": "HEALTHY",
+      "duration_sec": 16
+    },
+    "carga_datamart_trakcare_paciente": {
+      "last_run": "2026-03-18T01:00:00.573000",
+      "status": "HEALTHY",
+      "duration_sec": 769
+    },
+    "carga_ekpo": {
+      "last_run": "2026-03-18T00:40:00.455000",
+      "status": "HEALTHY",
+      "duration_sec": 1950
+    },
+    "carga_iris_detalle_atenciones_urgencia": {
+      "last_run": "2026-03-18T06:00:01.104000",
+      "status": "HEALTHY",
+      "duration_sec": 1468
+    },
+    "carga_mrc_emergencycondition": {
+      "last_run": "2026-03-18T02:35:00.418000",
+      "status": "HEALTHY",
+      "duration_sec": 6
+    },
+    "carga_mrc_severity": {
+      "last_run": "2026-03-18T02:50:01.103000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_ndia": {
+      "last_run": "2026-03-18T02:15:00.410000",
+      "status": "HEALTHY",
+      "duration_sec": 82
+    },
+    "carga_ocupacion_camas": {
+      "last_run": "2026-03-18T12:00:00.428000",
+      "status": "HEALTHY",
+      "duration_sec": 26
+    },
+    "carga_oe_order": {
+      "last_run": "2026-03-18T02:45:01.111000",
+      "status": "HEALTHY",
+      "duration_sec": 2269
+    },
+    "carga_pa_adm": {
+      "last_run": "2026-03-18T02:50:01.113000",
+      "status": "HEALTHY",
+      "duration_sec": 8821
+    },
+    "carga_pac_dischclassification": {
+      "last_run": "2026-03-18T02:45:01.130000",
+=======
+      "last_run": "2026-03-13T02:50:00.447000",
+      "status": "HEALTHY",
+      "duration_sec": 15
+    },
+    "carga_datamart_trakcare_paciente": {
+      "last_run": "2026-03-13T01:00:00.543000",
+      "status": "HEALTHY",
+      "duration_sec": 821
+    },
+    "carga_ekpo": {
+      "last_run": "2026-03-13T00:40:00.415000",
+      "status": "HEALTHY",
+      "duration_sec": 1926
+    },
+    "carga_iris_detalle_atenciones_urgencia": {
+      "last_run": "2026-03-13T06:00:00.413000",
+      "status": "HEALTHY",
+      "duration_sec": 1554
+    },
+    "carga_mrc_emergencycondition": {
+      "last_run": "2026-03-13T02:35:01.090000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_mrc_severity": {
+      "last_run": "2026-03-13T02:50:00.453000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_ndia": {
+      "last_run": "2026-03-13T02:15:00.406000",
+      "status": "HEALTHY",
+      "duration_sec": 157
+    },
+    "carga_ocupacion_camas": {
+      "last_run": "2026-03-13T12:00:00.407000",
+      "status": "HEALTHY",
+      "duration_sec": 31
+    },
+    "carga_oe_order": {
+      "last_run": "2026-03-13T02:45:01.223000",
+      "status": "HEALTHY",
+      "duration_sec": 2383
+    },
+    "carga_pa_adm": {
+      "last_run": "2026-03-13T02:50:00.441000",
+      "status": "HEALTHY",
+      "duration_sec": 6439
+    },
+    "carga_pac_dischclassification": {
+      "last_run": "2026-03-13T02:45:00.405000",
+>>>>>>> d7a76cbec79906c26aad51cc6c444d84ec040887
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_pac_dischcondit": {
+<<<<<<< HEAD
+      "last_run": "2026-03-18T02:35:00.425000",
+      "status": "HEALTHY",
+      "duration_sec": 6
+    },
+    "carga_prm_physician_speciality": {
+      "last_run": "2026-03-15T23:00:00.421000",
+      "status": "HEALTHY",
+      "duration_sec": 958
+    },
+    "carga_rb_appointment": {
+      "last_run": "2026-03-18T02:40:00.419000",
+      "status": "HEALTHY",
+      "duration_sec": 2028
+    },
+    "carga_setnode": {
+      "last_run": "2026-03-18T03:32:36.577000",
+=======
+      "last_run": "2026-03-13T02:35:00.412000",
+>>>>>>> d7a76cbec79906c26aad51cc6c444d84ec040887
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_prm_physician_speciality": {
+      "last_run": "2026-03-10T08:00:00.409000",
+      "status": "FAILED",
+      "duration_sec": 6
+    },
+    "carga_rb_appointment": {
+      "last_run": "2026-03-13T02:40:00.403000",
+      "status": "HEALTHY",
+      "duration_sec": 1587
+    },
+    "carga_setnode": {
+      "last_run": "2026-03-13T03:32:31.792000",
+      "status": "HEALTHY",
+      "duration_sec": 6
+    },
+    "carga_si_salud_integral": {
+<<<<<<< HEAD
+      "last_run": "2026-03-18T03:00:01.155000",
+=======
+      "last_run": "2026-03-13T03:00:00.449000",
+>>>>>>> d7a76cbec79906c26aad51cc6c444d84ec040887
+      "status": "HEALTHY",
+      "duration_sec": 6
+    },
+    "carga_t025t": {
+<<<<<<< HEAD
+      "last_run": "2026-03-18T03:33:04.806000",
+=======
+      "last_run": "2026-03-13T03:33:00.651000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_t16fs": {
+      "last_run": "2026-03-13T00:20:01.165000",
+>>>>>>> d7a76cbec79906c26aad51cc6c444d84ec040887
+      "status": "HEALTHY",
+      "duration_sec": 6
+    },
+<<<<<<< HEAD
+    "carga_t16fs": {
+      "last_run": "2026-03-18T00:20:00.432000",
+      "status": "HEALTHY",
+      "duration_sec": 8
+    },
+    "carga_tr_agenda_cirugias": {
+      "last_run": "2026-03-18T12:45:00.431000",
+      "status": "HEALTHY",
+      "duration_sec": 40
+    },
+    "carga_zish99_01k": {
+      "last_run": "2026-03-18T02:45:00.415000",
+      "status": "HEALTHY",
+      "duration_sec": 1308
+    },
+    "carga_zish_aeppr": {
+      "last_run": "2026-03-18T03:33:04.351000",
+      "status": "HEALTHY",
+      "duration_sec": 8
+    },
+    "carga_zish_ceco_reglas": {
+      "last_run": "2026-03-18T03:32:52.168000",
+      "status": "HEALTHY",
+      "duration_sec": 9
+    },
+    "carga_zish_h_est_call": {
+      "last_run": "2026-03-18T00:25:00.421000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_zish_uc_ge_adm": {
+      "last_run": "2026-03-18T00:25:00.418000",
+      "status": "HEALTHY",
+      "duration_sec": 14
+    },
+    "carga_zishpm033_medext": {
+      "last_run": "2026-03-18T03:34:35.127000",
+=======
+    "carga_tr_agenda_cirugias": {
+      "last_run": "2026-03-13T12:45:00.410000",
+      "status": "HEALTHY",
+      "duration_sec": 45
+    },
+    "carga_zish99_01k": {
+      "last_run": "2026-03-13T02:45:01.084000",
+      "status": "HEALTHY",
+      "duration_sec": 1262
+    },
+    "carga_zish_aeppr": {
+      "last_run": "2026-03-13T03:33:00.248000",
+      "status": "HEALTHY",
+      "duration_sec": 8
+    },
+    "carga_zish_ceco_reglas": {
+      "last_run": "2026-03-13T03:32:47.343000",
+      "status": "HEALTHY",
+      "duration_sec": 8
+    },
+    "carga_zish_h_est_call": {
+      "last_run": "2026-03-13T00:25:00.429000",
+      "status": "HEALTHY",
+      "duration_sec": 6
+    },
+    "carga_zish_uc_ge_adm": {
+      "last_run": "2026-03-13T00:25:00.426000",
+      "status": "HEALTHY",
+      "duration_sec": 15
+    },
+    "carga_zishpm033_medext": {
+      "last_run": "2026-03-13T03:34:31.054000",
+>>>>>>> d7a76cbec79906c26aad51cc6c444d84ec040887
+      "status": "HEALTHY",
+      "duration_sec": 8
+    },
+    "carga_ztmm_norma226": {
+<<<<<<< HEAD
+      "last_run": "2026-03-18T03:34:17.529000",
+      "status": "HEALTHY",
+      "duration_sec": 16
+    },
+    "Carga_Datos_Trakcare_IQ": {
+      "last_run": "2026-03-18T03:02:00.499000",
+      "status": "HEALTHY",
+      "duration_sec": 7
+    },
+    "WHPUOS_TIEMPOS_URGENCIA": {
+      "last_run": "2026-03-18T08:30:00.422000",
+      "status": "HEALTHY",
+      "duration_sec": 649
+    },
+    "carga_INC_Itm": {
+      "last_run": "2026-03-18T03:15:00.416000",
+      "status": "HEALTHY",
+      "duration_sec": 10
+    },
+    "carga_INC_ItmLoc": {
+      "last_run": "2026-03-18T03:15:00.413000",
+      "status": "HEALTHY",
+      "duration_sec": 8
+    },
+    "carga_QCLUCAPO": {
+      "last_run": "2026-03-13T11:17:24.358000",
+      "status": "FAILED",
+      "duration_sec": 30
+    },
+    "carga_ZISH_TAB_H_EST_FULL": {
+      "last_run": "2026-03-18T11:01:31.406000",
+      "status": "HEALTHY",
+      "duration_sec": 260
+    },
+    "carga_ZISTD0024PQT1_FULL": {
+      "last_run": "2026-03-18T11:50:57.263000",
+      "status": "HEALTHY",
+      "duration_sec": 30
+    },
+    "carga_a935": {
+      "last_run": "2026-03-18T00:30:01.224000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_a942": {
+      "last_run": "2026-03-18T00:30:01.209000",
+      "status": "HEALTHY",
+      "duration_sec": 14
+    },
+    "carga_a946": {
+      "last_run": "2026-03-18T01:55:00.420000",
+      "status": "HEALTHY",
+      "duration_sec": 207
+    },
+    "carga_adm_convenios": {
+      "last_run": "2026-03-18T12:38:47.607000",
+      "status": "HEALTHY",
+      "duration_sec": 6
+    },
+    "carga_csks": {
+      "last_run": "2026-03-18T03:33:22.186000",
+      "status": "HEALTHY",
+      "duration_sec": 13
+    },
+    "carga_ct_hospital": {
+      "last_run": "2026-03-18T02:40:01.187000",
+      "status": "HEALTHY",
+      "duration_sec": 21
+    },
+    "carga_datamart_trakcare_centro": {
+      "last_run": "2026-03-18T01:00:01.372000",
+      "status": "HEALTHY",
+      "duration_sec": 7
+    },
+    "carga_datamart_trakcare_departamento": {
+      "last_run": "2026-03-18T01:00:00.561000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_dg_consentimiento_paciente": {
+      "last_run": "2026-03-18T11:39:19.116000",
+      "status": "HEALTHY",
+      "duration_sec": 135
+    },
+    "carga_ekbe": {
+      "last_run": "2026-03-18T00:05:00.473000",
+      "status": "HEALTHY",
+      "duration_sec": 7654
+    },
+    "carga_konh": {
+      "last_run": "2026-03-18T01:10:48.028000",
+      "status": "HEALTHY",
+      "duration_sec": 1738
+    },
+    "carga_lfa1": {
+      "last_run": "2026-03-18T03:33:15.912000",
+      "status": "HEALTHY",
+      "duration_sec": 21
+    },
+    "carga_mkpf": {
+      "last_run": "2026-03-18T00:30:01.224000",
+      "status": "HEALTHY",
+      "duration_sec": 3251
+    },
+    "carga_mr_diagnos": {
+      "last_run": "2026-03-18T02:50:00.417000",
+      "status": "HEALTHY",
+      "duration_sec": 1082
+    },
+    "carga_mr_encentryitem": {
+      "last_run": "2026-03-18T02:50:00.422000",
+      "status": "HEALTHY",
+      "duration_sec": 2532
+    },
+    "carga_mrc_icddx": {
+      "last_run": "2026-03-18T02:40:01.191000",
+      "status": "HEALTHY",
+      "duration_sec": 21
+    },
+    "carga_ngeb": {
+      "last_run": "2026-03-18T03:33:14.971000",
+      "status": "HEALTHY",
+      "duration_sec": 10
+    },
+    "carga_npir": {
+      "last_run": "2026-03-18T02:50:00.422000",
+      "status": "HEALTHY",
+      "duration_sec": 578
+    },
+    "carga_ntmn": {
+      "last_run": "2026-03-18T00:40:00.445000",
+      "status": "HEALTHY",
+      "duration_sec": 3088
+    },
+    "carga_oec_ordercategory": {
+      "last_run": "2026-03-18T02:40:01.176000",
+      "status": "HEALTHY",
+      "duration_sec": 23
+    },
+    "carga_oec_ordertatus": {
+      "last_run": "2026-03-18T02:55:00.501000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_pac_causeofinjury": {
+      "last_run": "2026-03-18T02:35:01.107000",
+      "status": "HEALTHY",
+      "duration_sec": 8
+    },
+    "carga_pac_ward": {
+      "last_run": "2026-03-18T02:30:01.266000",
+      "status": "HEALTHY",
+      "duration_sec": 6
+    },
+    "carga_remasep_01": {
+      "last_run": "2026-03-18T00:06:00.412000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_tn14u": {
+      "last_run": "2026-03-18T03:33:00.340000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_tn16t": {
+      "last_run": "2026-03-18T03:32:52.502000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_tn16u": {
+      "last_run": "2026-03-18T02:15:00.408000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_zar_012s": {
+      "last_run": "2026-03-18T03:34:40.780000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_zishpa_uc_estado": {
+      "last_run": "2026-03-18T03:32:25.828000",
+      "status": "HEALTHY",
+      "duration_sec": 7
+    },
+    "Cartera_Santander_Integral": {
+      "last_run": "2026-03-18T05:30:00.414000",
+      "status": "HEALTHY",
+      "duration_sec": 2
+    },
+    "OS_TICKET_TOMAS_SANTANDER": {
+      "last_run": "2026-03-18T07:50:00.413000",
+      "status": "HEALTHY",
+      "duration_sec": 952
+    },
+    "carga_EKKN_FULL": {
+      "last_run": "2026-03-18T11:50:57.892000",
+      "status": "HEALTHY",
+      "duration_sec": 114
+    },
+    "carga_LFBK": {
+      "last_run": "2026-03-18T03:32:36.514000",
+      "status": "HEALTHY",
+      "duration_sec": 6
+    },
+    "carga_NAPP_DWHBI": {
+      "last_run": "2026-03-18T01:42:12.204000",
+      "status": "HEALTHY",
+      "duration_sec": 2375
+    },
+    "carga_NNLZ_FULL": {
+      "last_run": "2026-03-18T12:14:00.434000",
+      "status": "HEALTHY",
+      "duration_sec": 497
+    },
+    "carga_ZISH99_01A": {
+      "last_run": "2026-03-18T02:20:00.412000",
+      "status": "HEALTHY",
+      "duration_sec": 715
+    },
+    "carga_ZISHPM_EST_MASKP": {
+      "last_run": "2026-03-18T02:25:00.412000",
+      "status": "HEALTHY",
+      "duration_sec": 240
+    },
+    "carga_ZISH_TAB_ESTST": {
+      "last_run": "2026-03-18T01:55:00.412000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_ZTINT_CLOUD_SAP_DWHBI": {
+      "last_run": "2026-03-18T01:50:00.444000",
+      "status": "HEALTHY",
+      "duration_sec": 344
+    },
+    "carga_a931": {
+      "last_run": "2026-03-18T00:30:00.577000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_adcp": {
+      "last_run": "2026-03-18T02:55:00.503000",
+      "status": "HEALTHY",
+      "duration_sec": 8
+    },
+    "carga_bse_clr": {
+      "last_run": "2026-03-18T00:45:00.472000",
+      "status": "HEALTHY",
+      "duration_sec": 4377
+    },
+    "carga_bsim": {
+      "last_run": "2026-03-18T00:30:34.445000",
+      "status": "HEALTHY",
+      "duration_sec": 3451
+    },
+    "carga_faglflexa": {
+      "last_run": "2026-03-18T03:32:43.341000",
+      "status": "HEALTHY",
+      "duration_sec": 7
+    },
+    "carga_ges_eno": {
+      "last_run": "2026-03-18T02:00:00.424000",
+      "status": "HEALTHY",
+      "duration_sec": 11
+    },
+    "carga_iris_atenciones_urgencia": {
+      "last_run": "2026-03-18T02:00:01.138000",
+      "status": "HEALTHY",
+      "duration_sec": 706
+    },
+    "carga_makt": {
+      "last_run": "2026-03-18T07:30:00.424000",
+      "status": "HEALTHY",
+      "duration_sec": 11
+    },
+    "carga_mr_encentry": {
+      "last_run": "2026-03-18T02:55:01.228000",
+      "status": "HEALTHY",
+      "duration_sec": 1004
+    },
+    "carga_nbau": {
+      "last_run": "2026-03-18T03:33:05.144000",
+      "status": "HEALTHY",
+      "duration_sec": 7
+    },
+    "carga_noek": {
+      "last_run": "2026-03-18T03:37:20.170000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_ntpk": {
+      "last_run": "2026-03-18T00:20:00.418000",
+      "status": "HEALTHY",
+      "duration_sec": 19
+    },
+    "carga_pa_patmas": {
+      "last_run": "2026-03-18T02:55:00.500000",
+      "status": "HEALTHY",
+      "duration_sec": 1809
+    },
+    "carga_pac_bed": {
+      "last_run": "2026-03-18T03:00:00.495000",
+      "status": "HEALTHY",
+      "duration_sec": 7
+    },
+    "carga_rbkp": {
+      "last_run": "2026-03-18T02:45:00.419000",
+      "status": "HEALTHY",
+      "duration_sec": 197
+    },
+    "carga_setheadert": {
+      "last_run": "2026-03-18T03:32:46.917000",
+      "status": "HEALTHY",
+      "duration_sec": 7
+    },
+    "carga_setleaf": {
+      "last_run": "2026-03-18T00:25:00.418000",
+      "status": "HEALTHY",
+      "duration_sec": 6
+    },
+    "carga_t006a": {
+      "last_run": "2026-03-18T07:30:01.139000",
+      "status": "HEALTHY",
+      "duration_sec": 6
+    },
+    "carga_tiempos_quirurgicos_tc": {
+      "last_run": "2026-03-18T01:00:01.263000",
+      "status": "HEALTHY",
+      "duration_sec": 16
+    },
+    "carga_tn11h": {
+      "last_run": "2026-03-18T03:34:18.528000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_zishpm033_nfpz": {
+      "last_run": "2026-03-18T02:05:00.411000",
+      "status": "HEALTHY",
+      "duration_sec": 123
+    },
+    "carga_Custom_CLUC_Integration_ERP_DatosExternos": {
+      "last_run": "2026-03-18T02:45:01.126000",
+      "status": "HEALTHY",
+      "duration_sec": 11
+    },
+    "carga_FAGL_011QT": {
+      "last_run": "2026-03-18T05:17:51.226000",
+      "status": "HEALTHY",
+      "duration_sec": 7
+    },
+    "carga_KONP": {
+      "last_run": "2026-03-18T02:35:01.107000",
+      "status": "HEALTHY",
+      "duration_sec": 1194
+    },
+    "carga_MARM": {
+      "last_run": "2026-03-18T03:33:15.453000",
+      "status": "HEALTHY",
+      "duration_sec": 10
+    },
+    "carga_NAPP": {
+      "last_run": "2026-03-18T01:42:12.204000",
+      "status": "HEALTHY",
+      "duration_sec": 883
+    },
+    "carga_NBEW_FULL": {
+      "last_run": "2026-03-18T00:35:01.129000",
+      "status": "HEALTHY",
+      "duration_sec": 2997
+    },
+    "carga_NFAL_INC": {
+      "last_run": "2026-03-18T12:02:00.439000",
+      "status": "HEALTHY",
+      "duration_sec": 40
+    },
+    "carga_NFPZ_FULL": {
+      "last_run": "2026-03-18T01:45:00.438000",
+      "status": "HEALTHY",
+      "duration_sec": 593
+    },
+    "carga_VBRK": {
+      "last_run": "2026-03-18T00:15:00.427000",
+      "status": "HEALTHY",
+      "duration_sec": 7459
+    },
+    "carga_ZFI_SIMUCREDP": {
+      "last_run": "2026-03-18T03:32:53.232000",
+      "status": "HEALTHY",
+      "duration_sec": 8
+    },
+    "carga_ZISTD0009PFCOMCA": {
+      "last_run": "2026-03-18T02:10:00.438000",
+      "status": "HEALTHY",
+      "duration_sec": 49
+    },
+    "carga_admconvenios": {
+      "last_run": "2026-03-18T06:00:00.420000",
+      "status": "HEALTHY",
+      "duration_sec": 2057
+    },
+    "carga_base_tiempos_cx": {
+      "last_run": "2026-03-18T02:30:00.420000",
+      "status": "HEALTHY",
+      "duration_sec": 34
+    },
+    "carga_bsad": {
+      "last_run": "2026-03-18T00:15:00.431000",
+      "status": "HEALTHY",
+      "duration_sec": 5737
+    },
+    "carga_c501": {
+      "last_run": "2026-03-18T02:15:00.415000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_ct_acuity": {
+      "last_run": "2026-03-18T02:55:00.498000",
+      "status": "HEALTHY",
+      "duration_sec": 6
+    },
+    "carga_mrc_encentrytype": {
+      "last_run": "2026-03-18T02:45:00.418000",
+      "status": "HEALTHY",
+      "duration_sec": 8
+    },
+    "carga_mssl": {
+      "last_run": "2026-03-18T07:30:00.423000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_nicp": {
+      "last_run": "2026-03-18T03:33:29.882000",
+      "status": "HEALTHY",
+      "duration_sec": 29
+    },
+    "carga_norg": {
+      "last_run": "2026-03-18T03:36:40.704000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_ntpt": {
+      "last_run": "2026-03-18T03:32:22.804000",
+      "status": "HEALTHY",
+      "duration_sec": 12
+    },
+    "carga_org_indicaciones": {
+      "last_run": "2026-03-18T00:01:15.412000",
+      "status": "HEALTHY",
+      "duration_sec": 292
+    },
+    "carga_pa_person": {
+      "last_run": "2026-03-18T03:00:01.123000",
+      "status": "HEALTHY",
+      "duration_sec": 2133
+    },
+    "carga_pac_snomedterms": {
+      "last_run": "2026-03-18T03:00:00.509000",
+      "status": "HEALTHY",
+      "duration_sec": 97
+    },
+    "carga_rseg": {
+      "last_run": "2026-03-18T00:10:00.412000",
+      "status": "HEALTHY",
+      "duration_sec": 48
+    },
+    "carga_sabana_pabellones": {
+      "last_run": "2026-03-18T11:31:56.800000",
+      "status": "HEALTHY",
+      "duration_sec": 28
+    },
+    "carga_setheader": {
+      "last_run": "2026-03-18T00:20:01.127000",
+      "status": "HEALTHY",
+      "duration_sec": 9
+    },
+    "carga_ska1": {
+      "last_run": "2026-03-18T00:20:00.447000",
+      "status": "HEALTHY",
+      "duration_sec": 10
+    },
+    "carga_slas_os_ticket": {
+      "last_run": "2026-03-18T07:30:00.423000",
+      "status": "HEALTHY",
+      "duration_sec": 6
+    },
+    "carga_ss_user": {
+      "last_run": "2026-03-18T02:30:00.426000",
+      "status": "HEALTHY",
+      "duration_sec": 18
+    },
+    "carga_t023t": {
+      "last_run": "2026-03-18T02:55:01.232000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_tn14x": {
+      "last_run": "2026-03-18T00:20:00.422000",
+      "status": "HEALTHY",
+      "duration_sec": 6
+    },
+    "carga_usr21": {
+      "last_run": "2026-03-18T00:30:35.656000",
+      "status": "HEALTHY",
+      "duration_sec": 6
+    },
+    "carga_zint_uc_dte": {
+      "last_run": "2026-03-18T03:32:47.840000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_zishpm_est_maskh": {
+      "last_run": "2026-03-18T02:35:01.121000",
+      "status": "HEALTHY",
+      "duration_sec": 103
+    },
+    "FICHA_PACIENTES_TC": {
+      "last_run": "2026-03-18T06:00:00.422000",
+      "status": "HEALTHY",
+      "duration_sec": 889
+    },
+    "a_info_img_urg": {
+      "last_run": "2026-03-18T08:30:00.428000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_A986": {
+      "last_run": "2026-03-18T00:14:00.411000",
+      "status": "HEALTHY",
+      "duration_sec": 283
+    },
+    "carga_EKET": {
+      "last_run": "2026-03-18T02:05:00.420000",
+      "status": "HEALTHY",
+      "duration_sec": 1442
+    },
+    "carga_NBEW_INC": {
+      "last_run": "2026-03-18T12:01:00.431000",
+      "status": "HEALTHY",
+      "duration_sec": 52
+    },
+    "carga_NFAL_FULL": {
+      "last_run": "2026-03-18T00:52:42.223000",
+      "status": "HEALTHY",
+      "duration_sec": 2613
+    },
+    "carga_OE_OrdExec": {
+      "last_run": "2026-03-18T02:30:00.426000",
+      "status": "HEALTHY",
+      "duration_sec": 5490
+    },
+    "carga_ZISH99_01P": {
+      "last_run": "2026-03-18T00:05:00.476000",
+      "status": "HEALTHY",
+      "duration_sec": 5761
+    },
+    "carga_adrc": {
+      "last_run": "2026-03-18T02:55:01.146000",
+      "status": "HEALTHY",
+      "duration_sec": 626
+    },
+    "carga_agenda_cirugias": {
+      "last_run": "2026-03-18T07:55:00.414000",
+      "status": "HEALTHY",
+      "duration_sec": 952
+    },
+    "carga_arc_itmmast": {
+      "last_run": "2026-03-18T02:45:00.420000",
+      "status": "HEALTHY",
+      "duration_sec": 34
+    },
+    "carga_base_suspendidas": {
+      "last_run": "2026-03-18T11:50:57.405000",
+      "status": "HEALTHY",
+      "duration_sec": 16
+    },
+    "carga_bsik": {
+      "last_run": "2026-03-18T02:50:01.128000",
+      "status": "HEALTHY",
+      "duration_sec": 1488
+    },
+    "carga_c502": {
+      "last_run": "2026-03-18T03:32:58.818000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_ct_careprov": {
+      "last_run": "2026-03-18T02:40:01.190000",
+      "status": "HEALTHY",
+      "duration_sec": 42
+    },
+    "carga_ct_disposit": {
+      "last_run": "2026-03-18T02:35:00.422000",
+      "status": "HEALTHY",
+      "duration_sec": 7
+    },
+    "carga_ekko": {
+      "last_run": "2026-03-18T00:30:01.262000",
+      "status": "HEALTHY",
+      "duration_sec": 299
+    },
+    "carga_indicaciones_administracion_tc": {
+      "last_run": "2026-03-18T06:00:00.421000",
+      "status": "HEALTHY",
+      "duration_sec": 422
+    },
+    "carga_lqua": {
+      "last_run": "2026-03-18T07:30:00.421000",
+      "status": "HEALTHY",
+      "duration_sec": 11
+    },
+    "carga_mbew": {
+      "last_run": "2026-03-18T07:30:01.131000",
+      "status": "HEALTHY",
+      "duration_sec": 42
+    },
+    "carga_mchb": {
+      "last_run": "2026-03-18T07:30:01.120000",
+      "status": "HEALTHY",
+      "duration_sec": 26
+    },
+    "carga_mr_encounter": {
+      "last_run": "2026-03-18T02:50:00.417000",
+      "status": "HEALTHY",
+      "duration_sec": 73
+    },
+    "carga_mr_reasonforenc": {
+      "last_run": "2026-03-18T03:00:01.261000",
+      "status": "HEALTHY",
+      "duration_sec": 1899
+    },
+    "carga_mrc_observationstatus": {
+      "last_run": "2026-03-18T02:30:01.128000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_nadr": {
+      "last_run": "2026-03-18T02:40:00.419000",
+      "status": "HEALTHY",
+      "duration_sec": 205
+    },
+    "carga_nmatv": {
+      "last_run": "2026-03-18T00:50:32.621000",
+      "status": "HEALTHY",
+      "duration_sec": 3007
+    },
+    "carga_npat": {
+      "last_run": "2026-03-18T00:40:00.427000",
+      "status": "HEALTHY",
+      "duration_sec": 723
+    },
+    "carga_npef": {
+      "last_run": "2026-03-18T03:33:12.303000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_oe_orditem": {
+      "last_run": "2026-03-18T02:35:01.114000",
+      "status": "HEALTHY",
+      "duration_sec": 20451
+    },
+    "carga_pa_problem": {
+      "last_run": "2026-03-18T03:00:00.505000",
+      "status": "HEALTHY",
+      "duration_sec": 455
+    },
+    "carga_remasep_anexob2": {
+      "last_run": "2026-03-18T00:05:00.472000",
+      "status": "HEALTHY",
+      "duration_sec": 6
+    },
+    "carga_remasep_otros_servicios": {
+      "last_run": "2026-03-18T00:05:00.475000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_t134t": {
+      "last_run": "2026-03-18T03:33:03.953000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_t16fd": {
+      "last_run": "2026-03-18T03:37:00.147000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_tmp_rep_ta_episodios": {
+      "last_run": "2026-03-18T01:00:00.621000",
+      "status": "HEALTHY",
+      "duration_sec": 25
+    },
+    "carga_tn11o": {
+      "last_run": "2026-03-18T00:30:01.247000",
+      "status": "HEALTHY",
+      "duration_sec": 7
+    },
+    "carga_tn11u": {
+      "last_run": "2026-03-18T00:35:00.473000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_tn14t": {
+      "last_run": "2026-03-18T00:35:00.444000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_usr02": {
+      "last_run": "2026-03-18T03:34:21.296000",
+      "status": "HEALTHY",
+      "duration_sec": 6
+    },
+    "carga_whpuos_tiempos_qx_tc": {
+      "last_run": "2026-03-18T11:50:57.698000",
+      "status": "HEALTHY",
+      "duration_sec": 17
+    },
+    "carga_zar_012i": {
+      "last_run": "2026-03-18T00:15:00.425000",
+      "status": "HEALTHY",
+      "duration_sec": 4068
+    },
+    "carga_zish_cme_pref": {
+      "last_run": "2026-03-18T02:20:00.412000",
+      "status": "HEALTHY",
+      "duration_sec": 346
+    },
+    "carga_zish_emp_respon": {
+      "last_run": "2026-03-18T00:30:00.454000",
+      "status": "HEALTHY",
+      "duration_sec": 7
+    },
+    "carga_zish_traza_docom": {
+      "last_run": "2026-03-18T02:20:00.421000",
+      "status": "HEALTHY",
+      "duration_sec": 57
+    },
+    "carga_zmmt_saldos": {
+      "last_run": "2026-03-18T00:35:01.115000",
+      "status": "HEALTHY",
+      "duration_sec": 9
+    },
+    "carga_/ishneo/sddocfm": {
+      "last_run": "2026-03-18T01:45:00.437000",
+      "status": "HEALTHY",
+      "duration_sec": 895
+    },
+    "carga_A928": {
+      "last_run": "2026-03-18T02:01:00.412000",
+      "status": "HEALTHY",
+      "duration_sec": 197
+    },
+    "carga_ARC_ItemExternalCodes": {
+      "last_run": "2026-03-18T02:35:00.416000",
+      "status": "HEALTHY",
+      "duration_sec": 19
+    },
+    "carga_BSAS": {
+      "last_run": "2026-03-18T00:10:00.413000",
+      "status": "HEALTHY",
+      "duration_sec": 4537
+    },
+    "carga_BSIS": {
+      "last_run": "2026-03-18T00:01:00.422000",
+      "status": "HEALTHY",
+      "duration_sec": 14055
+    },
+    "carga_NLEI_INC": {
+      "last_run": "2026-03-18T12:00:30.432000",
+      "status": "HEALTHY",
+      "duration_sec": 445
+    },
+    "carga_OE_Dispensing": {
+      "last_run": "2026-03-17T16:56:00.428000",
+      "status": "HEALTHY",
+      "duration_sec": 3840
+    },
+    "carga_ZISH_PM_EST_QMS": {
+      "last_run": "2026-03-18T03:36:22.096000",
+      "status": "HEALTHY",
+      "duration_sec": 3
+    },
+    "carga_a800": {
+      "last_run": "2026-03-18T00:30:35.021000",
+      "status": "HEALTHY",
+      "duration_sec": 3
+    },
+    "carga_a899": {
+      "last_run": "2026-03-18T00:30:00.468000",
+      "status": "HEALTHY",
+      "duration_sec": 14
+    },
+    "carga_a944": {
+      "last_run": "2026-03-18T00:30:36.218000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_base_tiempos_qx_red": {
+      "last_run": "2026-03-18T11:50:57.698000",
+      "status": "HEALTHY",
+      "duration_sec": 35
+    },
+    "carga_bseg_add": {
+      "last_run": "2026-03-18T01:55:00.411000",
+      "status": "HEALTHY",
+      "duration_sec": 107
+    },
+    "carga_bsid": {
+      "last_run": "2026-03-18T02:25:00.411000",
+      "status": "HEALTHY",
+      "duration_sec": 353
+    },
+    "carga_cdhdr": {
+      "last_run": "2026-03-18T00:01:00.414000",
+      "status": "HEALTHY",
+      "duration_sec": 9888
+    },
+    "carga_cskt": {
+      "last_run": "2026-03-18T03:34:11.640000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_ct_region": {
+      "last_run": "2026-03-18T03:00:01.127000",
+      "status": "HEALTHY",
+      "duration_sec": 6
+    },
+    "carga_ct_spec": {
+      "last_run": "2026-03-18T02:55:00.494000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_eina": {
+      "last_run": "2026-03-18T03:33:22.597000",
+      "status": "HEALTHY",
+      "duration_sec": 16
+    },
+    "carga_faglflext": {
+      "last_run": "2026-03-18T02:30:00.425000",
+      "status": "HEALTHY",
+      "duration_sec": 780
+    },
+    "carga_homologador_tc_sap_prest": {
+      "last_run": "2026-03-18T02:40:00.428000",
+      "status": "HEALTHY",
+      "duration_sec": 19
+    },
+    "carga_mard": {
+      "last_run": "2026-03-18T07:30:01.269000",
+      "status": "HEALTHY",
+      "duration_sec": 28
+    },
+    "carga_mochila_os_ticket": {
+      "last_run": "2026-03-18T07:30:00.422000",
+      "status": "HEALTHY",
+      "duration_sec": 457
+    },
+    "carga_mr_emergencycondition": {
+      "last_run": "2026-03-18T02:55:01.155000",
+      "status": "HEALTHY",
+      "duration_sec": 977
+    },
+    "carga_mseg": {
+      "last_run": "2026-03-18T00:10:00.426000",
+      "status": "HEALTHY",
+      "duration_sec": 9143
+    },
+    "carga_nadr2": {
+      "last_run": "2026-03-18T03:33:43.162000",
+      "status": "HEALTHY",
+      "duration_sec": 16
+    },
+    "carga_pac_room": {
+      "last_run": "2026-03-18T02:35:01.109000",
+      "status": "HEALTHY",
+      "duration_sec": 15
+    },
+    "carga_prps": {
+      "last_run": "2026-03-18T03:32:15.478000",
+      "status": "HEALTHY",
+      "duration_sec": 10
+    },
+    "carga_remasep_consultas": {
+      "last_run": "2026-03-18T00:05:00.478000",
+      "status": "HEALTHY",
+      "duration_sec": 26
+    },
+    "carga_resb": {
+      "last_run": "2026-03-18T01:45:00.419000",
+      "status": "HEALTHY",
+      "duration_sec": 700
+    },
+    "carga_t001k": {
+      "last_run": "2026-03-18T03:34:09.836000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_t001w": {
+      "last_run": "2026-03-18T07:30:01.115000",
+      "status": "HEALTHY",
+      "duration_sec": 7
+    },
+    "carga_t163y": {
+      "last_run": "2026-03-18T00:20:01.105000",
+      "status": "HEALTHY",
+      "duration_sec": 6
+    },
+    "carga_tn20t": {
+      "last_run": "2026-03-18T03:36:52.169000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_zish_tab_itest": {
+      "last_run": "2026-03-18T02:30:01.118000",
+      "status": "HEALTHY",
+      "duration_sec": 377
+    },
+    "carga_zishpa_uc_0030": {
+      "last_run": "2026-03-18T01:10:46.542000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_ztint_uc_003_agd": {
+      "last_run": "2026-03-18T02:45:01.262000",
+      "status": "HEALTHY",
+      "duration_sec": 46
+=======
+      "last_run": "2026-03-13T03:34:13.426000",
+      "status": "HEALTHY",
+      "duration_sec": 18
+    },
+    "FICHA_PACIENTES_TC": {
+      "last_run": "2026-03-13T06:00:00.404000",
+      "status": "HEALTHY",
+      "duration_sec": 1018
+    },
+    "a_info_img_urg": {
+      "last_run": "2026-03-13T08:30:00.411000",
+      "status": "HEALTHY",
+      "duration_sec": 1
+    },
+    "carga_A986": {
+      "last_run": "2026-03-13T00:14:00.475000",
+      "status": "HEALTHY",
+      "duration_sec": 291
+    },
+    "carga_EKET": {
+      "last_run": "2026-03-13T02:05:00.406000",
+      "status": "HEALTHY",
+      "duration_sec": 1462
+    },
+    "carga_NBEW_INC": {
+      "last_run": "2026-03-13T13:01:00.416000",
+      "status": "HEALTHY",
+      "duration_sec": 57
+    },
+    "carga_NFAL_FULL": {
+      "last_run": "2026-03-13T00:50:32.916000",
+      "status": "HEALTHY",
+      "duration_sec": 2630
+    },
+    "carga_OE_OrdExec": {
+      "last_run": "2026-03-13T02:30:01.093000",
+      "status": "HEALTHY",
+      "duration_sec": 5565
+    },
+    "carga_ZISH99_01P": {
+      "last_run": "2026-03-13T00:05:00.408000",
+      "status": "HEALTHY",
+      "duration_sec": 5578
+    },
+    "carga_adrc": {
+      "last_run": "2026-03-13T02:55:00.439000",
+      "status": "HEALTHY",
+      "duration_sec": 538
+    },
+    "carga_agenda_cirugias": {
+      "last_run": "2026-03-13T07:55:00.404000",
+      "status": "HEALTHY",
+      "duration_sec": 955
+    },
+    "carga_arc_itmmast": {
+      "last_run": "2026-03-13T02:45:01.087000",
+      "status": "HEALTHY",
+      "duration_sec": 35
+    },
+    "carga_base_suspendidas": {
+      "last_run": "2026-03-13T11:50:32.742000",
+      "status": "HEALTHY",
+      "duration_sec": 10
+    },
+    "carga_bsik": {
+      "last_run": "2026-03-13T02:50:01.100000",
+      "status": "HEALTHY",
+      "duration_sec": 1475
+    },
+    "carga_c502": {
+      "last_run": "2026-03-13T03:32:54.690000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_ct_careprov": {
+      "last_run": "2026-03-13T02:40:01.077000",
+      "status": "HEALTHY",
+      "duration_sec": 20
+    },
+    "carga_ct_disposit": {
+      "last_run": "2026-03-13T02:35:01.110000",
+      "status": "HEALTHY",
+      "duration_sec": 10
+    },
+    "carga_ekko": {
+      "last_run": "2026-03-13T00:30:01.305000",
+      "status": "HEALTHY",
+      "duration_sec": 300
+    },
+    "carga_indicaciones_administracion_tc": {
+      "last_run": "2026-03-13T06:00:00.415000",
+      "status": "HEALTHY",
+      "duration_sec": 414
+    },
+    "carga_lqua": {
+      "last_run": "2026-03-13T07:30:00.420000",
+      "status": "HEALTHY",
+      "duration_sec": 10
+    },
+    "carga_mbew": {
+      "last_run": "2026-03-13T07:30:00.413000",
+      "status": "HEALTHY",
+      "duration_sec": 47
+    },
+    "carga_mchb": {
+      "last_run": "2026-03-13T07:30:00.418000",
+      "status": "HEALTHY",
+      "duration_sec": 24
+    },
+    "carga_mr_encounter": {
+      "last_run": "2026-03-13T02:50:00.443000",
+      "status": "HEALTHY",
+      "duration_sec": 65
+    },
+    "carga_mr_reasonforenc": {
+      "last_run": "2026-03-13T03:00:00.439000",
+      "status": "HEALTHY",
+      "duration_sec": 2264
+    },
+    "carga_mrc_observationstatus": {
+      "last_run": "2026-03-13T02:30:01.244000",
+      "status": "HEALTHY",
+      "duration_sec": 11
+    },
+    "carga_nadr": {
+      "last_run": "2026-03-13T02:40:01.085000",
+      "status": "HEALTHY",
+      "duration_sec": 198
+    },
+    "carga_nmatv": {
+      "last_run": "2026-03-13T00:45:00.467000",
+      "status": "HEALTHY",
+      "duration_sec": 3063
+    },
+    "carga_npat": {
+      "last_run": "2026-03-13T00:40:00.428000",
+      "status": "HEALTHY",
+      "duration_sec": 678
+    },
+    "carga_npef": {
+      "last_run": "2026-03-13T03:33:08.204000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_oe_orditem": {
+      "last_run": "2026-03-13T02:35:01.104000",
+      "status": "HEALTHY",
+      "duration_sec": 14683
+    },
+    "carga_pa_problem": {
+      "last_run": "2026-03-13T03:00:01.147000",
+      "status": "HEALTHY",
+      "duration_sec": 490
+    },
+    "carga_remasep_anexob2": {
+      "last_run": "2026-03-13T00:05:01.075000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_remasep_otros_servicios": {
+      "last_run": "2026-03-13T00:05:01.070000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_t134t": {
+      "last_run": "2026-03-13T03:32:59.851000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_t16fd": {
+      "last_run": "2026-03-13T03:36:55.901000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_tmp_rep_ta_episodios": {
+      "last_run": "2026-03-13T01:00:00.463000",
+      "status": "HEALTHY",
+      "duration_sec": 22
+    },
+    "carga_tn11o": {
+      "last_run": "2026-03-13T00:30:00.435000",
+      "status": "HEALTHY",
+      "duration_sec": 8
+    },
+    "carga_tn11u": {
+      "last_run": "2026-03-13T00:35:01.100000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_tn14t": {
+      "last_run": "2026-03-13T00:35:00.431000",
+      "status": "HEALTHY",
+      "duration_sec": 4
+    },
+    "carga_usr02": {
+      "last_run": "2026-03-13T03:34:17.171000",
+      "status": "HEALTHY",
+      "duration_sec": 9
+    },
+    "carga_whpuos_tiempos_qx_tc": {
+      "last_run": "2026-03-13T11:50:33.064000",
+      "status": "HEALTHY",
+      "duration_sec": 11
+    },
+    "carga_zar_012i": {
+      "last_run": "2026-03-13T00:15:00.398000",
+      "status": "HEALTHY",
+      "duration_sec": 3771
+    },
+    "carga_zish_cme_pref": {
+      "last_run": "2026-03-13T02:20:00.413000",
+      "status": "HEALTHY",
+      "duration_sec": 370
+    },
+    "carga_zish_emp_respon": {
+      "last_run": "2026-03-13T00:30:35.084000",
+      "status": "HEALTHY",
+      "duration_sec": 5
+    },
+    "carga_zish_traza_docom": {
+      "last_run": "2026-03-13T02:20:00.404000",
+      "status": "HEALTHY",
+      "duration_sec": 55
+    },
+    "carga_zmmt_saldos": {
+      "last_run": "2026-03-13T00:35:00.442000",
+      "status": "HEALTHY",
+      "duration_sec": 9
+>>>>>>> d7a76cbec79906c26aad51cc6c444d84ec040887
+    }
+  }
+}
