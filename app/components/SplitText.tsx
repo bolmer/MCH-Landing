@@ -19,7 +19,7 @@ export function SplitText({ text, className = "", delay = 0 }: SplitTextProps) {
     hidden: { opacity: 0 },
     visible: (i = 1) => ({
       opacity: 1,
-      transition: { staggerChildren: 0.1, delayChildren: delay },
+      transition: { staggerChildren: 0.15, delayChildren: delay },
     }),
   };
 
@@ -49,7 +49,7 @@ export function SplitText({ text, className = "", delay = 0 }: SplitTextProps) {
         <span style={{ overflow: "hidden", display: "inline-block", marginRight: "0.25em" }} key={index}>
           <motion.span 
             variants={child} 
-            transition={{ type: "spring", damping: 14, stiffness: 100 }}
+            transition={{ type: "spring", damping: 18, stiffness: 70 }}
             style={{ display: "inline-block" }}
           >
             {word}

@@ -38,7 +38,7 @@ async function LandingPageContent() {
 			<nav className="sticky top-0 z-50 border-b border-crust-light/30 bg-crumb-2/95 backdrop-blur-sm">
 				<div className="mx-auto flex max-w-[1400px] items-center justify-between px-6 py-4">
 					<span className="font-display text-lg font-bold tracking-tight text-crust-dark">
-						<DecryptedText text="mchicao.dev" speed={60} maxIterations={12} />
+						<DecryptedText text="mchicao.dev" speed={120} maxIterations={12} />
 					</span>
 					<div className="flex items-center gap-3 md:gap-6">
 						<a
@@ -424,7 +424,7 @@ async function LandingPageContent() {
 				<div className="mx-auto flex max-w-[1400px] flex-col items-center justify-between gap-4 px-6 py-10 text-sm text-crust-toasted md:flex-row">
 					<div>
 						<span className="font-display font-bold text-crust-dark">
-							<DecryptedText text="mchica.dev" speed={50} maxIterations={8} />
+							<DecryptedText text="mchicao.dev" speed={120} maxIterations={12} />
 						</span>
 						<span className="ml-3 font-medium">{t.footer.line1}</span>
 					</div>
