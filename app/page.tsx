@@ -458,13 +458,24 @@ function ProductCard({
 				</span>
 			</div>
 
-			<div className="flex flex-col gap-2">
-				<h3 className="font-display text-2xl font-bold text-crust-dark">
-					{product.name}
-				</h3>
-				<p className="text-sm font-semibold text-crust-golden">
-					{product.objective}
-				</p>
+			<div className="flex items-start justify-between gap-6">
+				<div className="flex flex-col gap-2">
+					<h3 className="font-display text-2xl font-bold text-crust-dark">
+						{product.name}
+					</h3>
+					<p className="text-sm font-semibold text-crust-golden">
+						{product.objective}
+					</p>
+				</div>
+				{product.image && (
+					<div className="relative h-20 w-20 flex-shrink-0 overflow-hidden rounded-2xl border border-crust-light/30 bg-crumb-2 shadow-sm transition-all group-hover:rotate-3 group-hover:scale-110 md:h-24 md:w-24">
+						<img
+							src={product.image}
+							alt={product.name}
+							className="h-full w-full object-cover"
+						/>
+					</div>
+				)}
 			</div>
 
 			<p className="mt-5 max-w-2xl text-base leading-relaxed text-crust-toasted">

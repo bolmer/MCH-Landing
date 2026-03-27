@@ -19,6 +19,7 @@ interface Product {
 	techContext: string;
 	capabilities: string[];
 	link?: string;
+	image?: string;
 }
 
 export interface Translations {
@@ -237,6 +238,7 @@ export const translations: Record<Locale, Translations> = {
 						"Visualización de tendencias y patrones",
 					],
 					link: "https://www.mindsight.cl/",
+					image: "/meendy.png",
 				},
 			],
 		},
@@ -428,6 +430,7 @@ export const translations: Record<Locale, Translations> = {
 						"Trend and pattern visualization",
 					],
 					link: "https://www.mindsight.cl/",
+					image: "/meendy.png",
 				},
 			],
 		},
