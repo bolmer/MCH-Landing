@@ -18,6 +18,7 @@ interface Product {
 	summary: string;
 	techContext: string;
 	capabilities: string[];
+	link?: string;
 }
 
 export interface Translations {
@@ -229,12 +230,13 @@ export const translations: Record<Locale, Translations> = {
 						"Dashboard de bienestar físico y mental con foco en el sueño",
 					summary:
 						"Plataforma de salud personal que mide, visualiza y gamifica hábitos de sueño y bienestar. Convierte datos de salud en métricas accionables para mejorar la calidad de vida día a día.",
-					techContext: "Next.js · Health APIs · Gamification · Charts",
+					techContext: "Next.js · Health APIs · Gamification · Charts · iOS/Android · WEB-Page",
 					capabilities: [
 						"Tracking de sueño y métricas de bienestar",
-						"Gamificación con sistema de logros",
+						"Gamification con sistema de logros",
 						"Visualización de tendencias y patrones",
 					],
+					link: "https://www.mindsight.cl/",
 				},
 			],
 		},
@@ -419,12 +421,13 @@ export const translations: Record<Locale, Translations> = {
 						"Physical and mental wellness dashboard focused on sleep",
 					summary:
 						"Personal health platform that measures, visualizes, and gamifies sleep and wellness habits. Turns health data into actionable metrics to improve quality of life day by day.",
-					techContext: "Next.js · Health APIs · Gamification · Charts",
+					techContext: "Next.js · Health APIs · Gamification · Charts · iOS/Android · WEB-Page",
 					capabilities: [
 						"Sleep tracking and wellness metrics",
 						"Gamification with achievement system",
 						"Trend and pattern visualization",
 					],
+					link: "https://www.mindsight.cl/",
 				},
 			],
 		},

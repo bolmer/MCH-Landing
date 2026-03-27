@@ -481,6 +481,20 @@ function ProductCard({
 					</li>
 				))}
 			</ul>
+
+			{product.link && (
+				<div className="mt-8 flex justify-end">
+					<a
+						href={product.link}
+						target="_blank"
+						rel="noopener noreferrer"
+						className="inline-flex items-center gap-2 rounded-full border border-crust-golden/20 bg-white/40 px-6 py-2.5 text-xs font-bold text-crust-golden shadow-sm transition-all hover:bg-crust-golden hover:text-white active:scale-95"
+					>
+						<span className="material-icon-inline !text-base">open_in_new</span>
+						{product.name === "Mindsight" || product.name === "Mindsight" ? "Visitar sitio" : "View Project"}
+					</a>
+				</div>
+			)}
 		</div>
 	);
 }
