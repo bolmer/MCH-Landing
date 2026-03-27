@@ -29,6 +29,11 @@ dagreGraph.setDefaultEdgeLabel(() => ({}));
 const nodeWidth = 260;
 const nodeHeight = 90;
 
+interface LineageNodeData {
+	type: string;
+	label: string;
+}
+
 const getLayoutedElements = (
 	nodes: Node[],
 	edges: Edge[],
@@ -79,7 +84,7 @@ const getIconForType = (type: string) => {
 	}
 };
 
-const CustomNode = ({ data }: { data: Node["data"] }) => {
+const CustomNode = ({ data }: { data: LineageNodeData }) => {
 	const icon = getIconForType(data.type);
 	const isDB = data.type === "databaseSource" || data.type === "databaseTarget";
 	const isSP = data.type === "storedProcedure";
@@ -178,12 +183,13 @@ export default function LineageFlow() {
 				// Extraer esquemas únicos solo de objetos de BD o flujos, ignorando archivos S3
 				const extractedSchemas = new Set<string>();
 				data.nodes.forEach((node: Node) => {
+					const nodeData = node.data as unknown as LineageNodeData;
 					if (
 						node.type !== "s3Object" &&
-						node.data.label &&
-						node.data.label.includes(".")
+						nodeData.label &&
+						nodeData.label.includes(".")
 					) {
-						extractedSchemas.add(node.data.label.split(".")[0]);
+						extractedSchemas.add(nodeData.label.split(".")[0]);
 					}
 				});
 				setSchemas(Array.from(extractedSchemas).sort());
@@ -218,12 +224,19 @@ export default function LineageFlow() {
 
 		// Filtro por Esquema
 		if (selectedSchema !== "todos") {
-			filtered = filtered.filter((n) => 
-				n.data.label && n.data.label.startsWith(`${selectedSchema}.`)
-			);
+			filtered = filtered.filter((n) => {
+				const nodeData = n.data as unknown as LineageNodeData;
+				return (
+					nodeData.label && nodeData.label.startsWith(`${selectedSchema}.`)
+				);
+			});
 		}
 
-		return filtered.sort((a, b) => a.data.label.localeCompare(b.data.label));
+		return filtered.sort((a, b) => {
+			const dataA = a.data as unknown as LineageNodeData;
+			const dataB = b.data as unknown as LineageNodeData;
+			return (dataA.label || "").localeCompare(dataB.label || "");
+		});
 	}, [allNodes, selectedObjectType, selectedSchema, selectedNodeId]);
 
 	// Lógica de filtrado del grafo (Linaje)
@@ -397,11 +410,14 @@ export default function LineageFlow() {
 									onChange={(e) => setSelectedNodeId(e.target.value)}
 								>
 									<option value="">Selecciona un objeto para trazar...</option>
-									{processOptions.map((opt) => (
-										<option key={opt.id} value={opt.id}>
-											{opt.data.label}
-										</option>
-									))}
+									{processOptions.map((opt) => {
+										const optData = opt.data as unknown as LineageNodeData;
+										return (
+											<option key={opt.id} value={opt.id}>
+												{optData.label}
+											</option>
+										);
+									})}
 								</select>
 							</div>
 						</div>

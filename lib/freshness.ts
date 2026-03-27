@@ -14,8 +14,6 @@ export interface FreshnessStatus {
 }
 
 export async function checkDataFreshness(now: Date): Promise<FreshnessStatus> {
-  "use cache";
-  cacheLife("minutes");
   try {
     const data = await fs.readFile(STATUS_FILE, 'utf-8');
     const json = JSON.parse(data);

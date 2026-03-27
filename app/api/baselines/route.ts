@@ -6,7 +6,6 @@ import path from "path";
  * GET /api/baselines
  * Retorna los baselines calculados desde reports/baselines.json
  */
-export const revalidate = 0;
 
 export async function GET() {
 	try {

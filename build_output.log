@@ -1,0 +1,69 @@
+WARNING! Build not running on Vercel. System environment variables will not be available.
+WARNING: You should not upload the `.next` directory.
+Installing dependencies...
+
+up to date in 748ms
+
+84 packages are looking for funding
+  run `npm fund` for details
+Detected Next.js version: 16.1.6
+Running "npm run build"
+
+> nifi-dashboard-monitor@0.1.0 build
+> next build
+
+Ôû▓ Next.js 16.1.6 (Turbopack)
+- Environments: .env.local
+
+  Creating an optimized production build ...
+Ô£ô Compiled successfully in 4.5s
+  Running TypeScript ...
+  Collecting page data using 11 workers ...
+  Generating static pages using 11 workers (0/9) ...
+  Generating static pages using 11 workers (2/9) 
+  Generating static pages using 11 workers (4/9) 
+  Generating static pages using 11 workers (6/9) 
+Ô£ô Generating static pages using 11 workers (9/9) in 249.7ms
+  Finalizing page optimization ...
+
+Route (app)
+Ôöî ãÆ /
+Ôö£ Ôùï /_not-found
+Ôö£ ãÆ /api/baselines
+Ôö£ ãÆ /api/flows
+Ôö£ ãÆ /api/governance/trigger
+Ôö£ ãÆ /api/nifi/sync
+Ôö£ ãÆ /api/slas
+Ôö£ ãÆ /dashboard
+Ôö£ ãÆ /dashboard/alerts
+Ôö£ ãÆ /dashboard/governance
+Ôö£ ãÆ /dashboard/lineage
+Ôö£ ãÆ /dashboard/performance
+Ôöö Ôùï /lineage
+
+
+ãÆ Proxy (Middleware)
+
+Ôùï  (Static)   prerendered as static content
+ãÆ  (Dynamic)  server-rendered on demand
+
+Traced Next.js server files in: 49.933ms
+Tracing entries due to missing build traces:
+[
+  "C:/Proyectos/MCH_Landing/.next/server/app/_global-error/page.js",
+  "C:/Proyectos/MCH_Landing/.next/server/app/_not-found/page.js",
+  "C:/Proyectos/MCH_Landing/.next/server/app/dashboard/alerts/page.js",
+  "C:/Proyectos/MCH_Landing/.next/server/app/dashboard/governance/page.js",
+  "C:/Proyectos/MCH_Landing/.next/server/app/dashboard/lineage/page.js",
+  "C:/Proyectos/MCH_Landing/.next/server/app/dashboard/page.js",
+  "C:/Proyectos/MCH_Landing/.next/server/app/dashboard/performance/page.js",
+  "C:/Proyectos/MCH_Landing/.next/server/app/lineage/page.js",
+  "C:/Proyectos/MCH_Landing/.next/server/app/api/baselines/route.js",
+  "C:/Proyectos/MCH_Landing/.next/server/app/api/flows/route.js",
+  "C:/Proyectos/MCH_Landing/.next/server/app/api/governance/trigger/route.js",
+  "C:/Proyectos/MCH_Landing/.next/server/app/api/nifi/sync/route.js",
+  "C:/Proyectos/MCH_Landing/.next/server/app/api/slas/route.js"
+]: 123.089ms
+Created all serverless functions in: 194.619ms
+Collected static files (public/, static/, .next/static): 6.412ms
+Error: EPERM: operation not permitted, symlink 'alerts.func' -> 'C:\Proyectos\MCH_Landing\.vercel\output\functions\dashboard\governance.func'

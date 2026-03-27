@@ -3,12 +3,14 @@ import { ChatWidget } from "@/components/ChatWidget";
 import { checkDataFreshness } from "@/lib/freshness";
 import { FreshnessProvider } from "@/lib/FreshnessContext";
 
+export const dynamic = "force-dynamic";
+
 export default async function DashboardLayout({
 	children,
 }: {
 	children: React.ReactNode;
 }) {
-	const freshness = await checkDataFreshness();
+	const freshness = await checkDataFreshness(new Date());
 
 	if (process.env.NODE_ENV === "development" && !freshness.isFresh) {
 		const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000";

@@ -6,7 +6,6 @@ import path from "path";
  * GET /api/slas
  * Retorna el catálogo de SLAs desde reports/sla_catalog.json
  */
-export const revalidate = 0;
 
 export async function GET() {
 	try {
