@@ -1,0 +1,11 @@
+{
+  "source": "github.com/pixels-and-code/pixels-and-code/skills/core-web-vitals",
+  "type": "github-subdir",
+  "installed_at": "2026-03-04T09:07:30.1566459-03:00",
+  "repo_url": "https://github.com/pixels-and-code/pixels-and-code.git",
+  "subdir": "skills/core-web-vitals",
+  "version": "ef0e77b",
+  "file_hashes": {
+    "SKILL.md": "sha256:61f63c8271d7099fd6f436008dbc7e736a1fdc59e608e7cdf4bf726c8605b886"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "source": "github.com/vercel-labs/next-skills/skills/next-upgrade",
+  "type": "github-subdir",
+  "installed_at": "2026-03-04T08:54:01.4088338-03:00",
+  "repo_url": "https://github.com/vercel-labs/next-skills.git",
+  "subdir": "skills/next-upgrade",
+  "version": "038954e",
+  "file_hashes": {
+    "SKILL.md": "sha256:1fd634ed86a6274433950d12b3025e850d1a49862f777481003b981f808422ca"
+  }
+}

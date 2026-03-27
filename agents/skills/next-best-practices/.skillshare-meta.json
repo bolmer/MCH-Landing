@@ -1,0 +1,30 @@
+{
+  "source": "github.com/vercel-labs/next-skills/skills/next-best-practices",
+  "type": "github-subdir",
+  "installed_at": "2026-03-04T08:54:01.2661052-03:00",
+  "repo_url": "https://github.com/vercel-labs/next-skills.git",
+  "subdir": "skills/next-best-practices",
+  "version": "038954e",
+  "file_hashes": {
+    "SKILL.md": "sha256:b090e6c6766783066e15f15eeea45c743573d6ba653c98498c3195d78b3d267b",
+    "async-patterns.md": "sha256:d6851966541b8f14d2e08d4710a0903491e8a0be55af848095f46b6f90d11aa7",
+    "bundling.md": "sha256:9dce3efcf3886841634d9898428c6691f3ff5ebc2219e76fb161f2bd6f8974ef",
+    "data-patterns.md": "sha256:4a3b4b022501820537b94dc0673be2ee0bc686061c2e08b2c25b8fdfe5ebe5a6",
+    "debug-tricks.md": "sha256:d6664077b905a9a2c1c7b60e66522df0257f8313e61fac0b9f327e1a169bb4cb",
+    "directives.md": "sha256:7060405d45db3f9e372428df64b85cbf330f691490b45936a15d2314c45fb48d",
+    "error-handling.md": "sha256:253cfa74b20ee8de82ec9547035b8bb8871135b55bfaa15d085d7f9d5053f494",
+    "file-conventions.md": "sha256:ee92c8cd848c76ec9d17e6cf74e1c915f99842970b350a4ee301495089ea6ad1",
+    "font.md": "sha256:5cfa0abf0d835c09b5d8f61f6910d44b16acb9f347af4a2040af828c010f5c9f",
+    "functions.md": "sha256:c0467adf74d4c59e2919bb79562a6a7a2b92a84d2040a49864d596af3e6e0926",
+    "hydration-error.md": "sha256:2e326719f5d869b7d7efddbee47af083d2adddc7c55aa194711be09d86509915",
+    "image.md": "sha256:21a8fe9bf1ea301fa4842e75e7f5c74759f32ab384251413fcecff746ae7a414",
+    "metadata.md": "sha256:35d7ad6c4cd34047ed2fd63b49453a1b6eced92559fa5d016b718cacea25b6c9",
+    "parallel-routes.md": "sha256:f801424a163b380309696f17fe4ad94c34bcbd0e4cfa4ae7037620d24ce665a5",
+    "route-handlers.md": "sha256:a8c7872c7e2e284ca9cd56f4669a266db273d96aab48d90ea8a63388a1a1b04c",
+    "rsc-boundaries.md": "sha256:a0cf4e2e21eac77a20cd2ed9d64d4ceb2e6a17b6a6e65f21838b1b4ba4a44dde",
+    "runtime-selection.md": "sha256:cd27c8e9275ebe804cec4d081fd5fae0fdd4b7e2d89cff79ab793c97760f275f",
+    "scripts.md": "sha256:66c96a20163d96b600fb6744000feec6315b88f5c29d0d18d4655c75eef5a313",
+    "self-hosting.md": "sha256:8d3910a486e58d3d7ac5527045f7215e0c5d764c5369fcc07330f9012874cf2e",
+    "suspense-boundaries.md": "sha256:f3a50ceb846ae8044cf0514f7f26f0c2c493b4bd5b13d3b2de620888420be7a0"
+  }
+}

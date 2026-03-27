@@ -1,0 +1,26 @@
+{
+  "managed": {
+    "antigravity-skill-creator": "symlink",
+    "async-python-patterns": "symlink",
+    "core-web-vitals": "symlink",
+    "data-engineering-data-pipeline": "symlink",
+    "delegating-to-codex": "symlink",
+    "fastapi-pro": "symlink",
+    "fastapi-templates": "symlink",
+    "frontend-design": "symlink",
+    "frontend-patterns": "symlink",
+    "lint-and-validate": "symlink",
+    "managing-postgresql": "symlink",
+    "next-best-practices": "symlink",
+    "next-cache-components": "symlink",
+    "next-upgrade": "symlink",
+    "parallel-swarm": "symlink",
+    "python-performance-optimization": "symlink",
+    "python-pro": "symlink",
+    "skillshare": "symlink",
+    "sql-optimization-patterns": "symlink",
+    "sql-pro": "symlink",
+    "verifying-completion": "symlink"
+  },
+  "updated_at": "2026-03-08T23:47:20.8651626-03:00"
+}

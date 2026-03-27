@@ -1,0 +1,11 @@
+{
+  "source": "github.com/vercel-labs/next-skills/skills/next-cache-components",
+  "type": "github-subdir",
+  "installed_at": "2026-03-04T08:54:01.3599199-03:00",
+  "repo_url": "https://github.com/vercel-labs/next-skills.git",
+  "subdir": "skills/next-cache-components",
+  "version": "038954e",
+  "file_hashes": {
+    "SKILL.md": "sha256:766c6f603dc9240d8a65519512caeacbc85ea7db23a0ba67c86b1cfb79e597d1"
+  }
+}
