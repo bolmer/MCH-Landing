@@ -155,6 +155,21 @@ export const translations: Record<Locale, Translations> = {
 			sub: "Cada producto ataca un problema específico de datos. Se despliegan de forma independiente y escalan con la operación.",
 			items: [
 				{
+					name: "Suite de Data Governance",
+					stage: "Enterprise Ready",
+					objective:
+						"Visibilidad total de flujos de datos, auditoría de riesgos y linaje técnico",
+					summary:
+						"Plataforma integral para Apache NiFi. Automatiza backups de seguridad, detecta cambios críticos en el código SQL, rastrea el linaje a nivel de campo y envía alertas de impacto a Microsoft Teams.",
+					techContext: "NiFi API · Python · FastAPI · Next.js · Redshift",
+					capabilities: [
+						"Deep Lineage: Rastreo de datos campo a campo",
+						"Smart Alerts: Integración con Microsoft Teams",
+						"Audit & Diff: Auditoría de SQL y Seguridad (PII/Secrets)",
+						"Blast Radius: Cálculo de impacto ante cambios",
+					],
+				},
+				{
 					name: "Data Governance Chat Bot",
 					stage: "MVP",
 					objective:
@@ -346,6 +361,21 @@ export const translations: Record<Locale, Translations> = {
 			headline2: ".",
 			sub: "Each product targets a specific data problem. Deployed independently and scaled with operations.",
 			items: [
+				{
+					name: "Data Governance Suite",
+					stage: "Enterprise Ready",
+					objective:
+						"Total visibility of data flows, risk auditing, and technical lineage",
+					summary:
+						"Comprehensive platform for Apache NiFi. Automates security backups, detects critical changes in SQL code, tracks field-level lineage, and sends impact alerts to Microsoft Teams.",
+					techContext: "NiFi API · Python · FastAPI · Next.js · Redshift",
+					capabilities: [
+						"Deep Lineage: Field-to-field data tracking",
+						"Smart Alerts: Microsoft Teams integration",
+						"Audit & Diff: SQL and Security (PII/Secrets) auditing",
+						"Impact Analysis: Blast Radius calculation",
+					],
+				},
 				{
 					name: "Data Governance Chat Bot",
 					stage: "MVP",
