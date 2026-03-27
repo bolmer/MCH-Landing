@@ -157,7 +157,7 @@ async function LandingPageContent() {
 			<section className="border-t border-crust-light/20 bg-crumb-2/30">
 				<ScrollReveal>
 					<div className="mx-auto max-w-[1400px] px-6 py-24">
-						<span className="text-xs font-bold uppercase tracking-[0.2em] text-crust-golden">
+						<span className="text-3xl font-bold uppercase tracking-[0.2em] text-crust-golden">
 							{t.trust.label}
 						</span>
 						<h2 className="mt-4 font-display text-4xl font-bold tracking-[-0.02em] text-crust-dark md:text-5xl">
@@ -203,7 +203,7 @@ async function LandingPageContent() {
 						<div className="mt-20 grid gap-16 md:grid-cols-3 md:gap-10">
 							{t.howItWorks.steps.map((step) => (
 								<div key={step.num} className="step-connector">
-									<span className="font-serif text-6xl font-bold text-crust-muted/70">
+									<span className="font-serif text-6xl font-bold text-crust-muted/70 text-crust-toasted">
 										{step.num}
 									</span>
 									<h3 className="mt-6 font-display text-xl font-bold text-crust-dark">
@@ -223,7 +223,7 @@ async function LandingPageContent() {
 			<section id="products" className="border-t border-crust-light/20 bg-crumb-2/20">
 				<ScrollReveal>
 					<div className="mx-auto max-w-[1400px] px-6 py-24">
-						<span className="text-xs font-bold uppercase tracking-[0.2em] text-crust-golden">
+						<span className="text-3xl font-bold uppercase tracking-[0.2em] text-crust-golden">
 							{t.products.label}
 						</span>
 						<h2 className="mt-4 font-display text-4xl font-bold tracking-[-0.02em] text-crust-dark md:text-5xl">
